@@ -49,35 +49,33 @@ def translate_descriptions(repositories: list[dict]) -> None:
     ]
     for start in range(0, len(items), 10):
         batch = items[start : start + 10]
+        prompt = (
+            "你是开源项目编辑。把以下每个 GitHub 项目简介翻译并改写为准确、自然、"
+            "简洁的一句中文，不添加原文没有的信息。只返回 JSON 数组，"
+            "每项严格使用 name 和 zh 两个字段。\n\n"
+            + json.dumps(batch, ensure_ascii=False)
+        )
         payload = {
-            "model": "openai/gpt-4.1",
-            "temperature": 0.1,
-            "messages": [
-                {
-                    "role": "system",
-                    "content": (
-                        "你是开源项目编辑。把每个 GitHub 项目简介翻译并改写为准确、自然、"
-                        "简洁的一句中文，不添加原文没有的信息。只返回 JSON 数组，"
-                        "每项严格使用 name 和 zh 两个字段。"
-                    ),
-                },
-                {"role": "user", "content": json.dumps(batch, ensure_ascii=False)},
-            ],
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {
+                "temperature": 0.1,
+                "responseMimeType": "application/json",
+            },
         }
         request = urllib.request.Request(
-            "https://models.github.ai/inference/chat/completions",
+            "https://generativelanguage.googleapis.com/v1beta/models/"
+            "gemini-3.6-flash:generateContent",
             data=json.dumps(payload).encode("utf-8"),
             headers={
-                "Accept": "application/vnd.github+json",
-                "Authorization": f"Bearer {os.environ['GH_TOKEN']}",
                 "Content-Type": "application/json",
-                "X-GitHub-Api-Version": "2026-03-10",
+                "x-goog-api-key": os.environ["GEMINI_API_KEY"],
             },
             method="POST",
         )
         try:
             with urllib.request.urlopen(request, timeout=90) as response:
-                content = json.load(response)["choices"][0]["message"]["content"].strip()
+                result = json.load(response)
+                content = result["candidates"][0]["content"]["parts"][0]["text"].strip()
             if content.startswith("```"):
                 content = content.split("\n", 1)[1].rsplit("```", 1)[0]
             for translated in json.loads(content):
