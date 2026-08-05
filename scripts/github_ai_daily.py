@@ -43,46 +43,33 @@ def github_json(path: str) -> dict:
 def translate_descriptions(repositories: list[dict]) -> None:
     """Translate only repositories that will appear in the report."""
     unique = {repo["name"]: repo for repo in repositories}
-    items = [
-        {"name": repo["name"], "description": repo["description"]}
-        for repo in unique.values()
-    ]
-    for start in range(0, len(items), 10):
-        batch = items[start : start + 10]
-        prompt = (
-            "你是开源项目编辑。把以下每个 GitHub 项目简介翻译并改写为准确、自然、"
-            "简洁的一句中文，不添加原文没有的信息。只返回 JSON 数组，"
-            "每项严格使用 name 和 zh 两个字段。\n\n"
-            + json.dumps(batch, ensure_ascii=False)
+    for repo in unique.values():
+        source = repo["description"]
+        if any("\u4e00" <= char <= "\u9fff" for char in source):
+            continue
+        params = urllib.parse.urlencode(
+            {"client": "gtx", "sl": "auto", "tl": "zh-CN", "dt": "t", "q": source}
         )
-        payload = {
-            "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {
-                "temperature": 0.1,
-                "responseMimeType": "application/json",
-            },
-        }
         request = urllib.request.Request(
-            "https://generativelanguage.googleapis.com/v1beta/models/"
-            "gemini-3.6-flash:generateContent",
-            data=json.dumps(payload).encode("utf-8"),
-            headers={
-                "Content-Type": "application/json",
-                "x-goog-api-key": os.environ["GEMINI_API_KEY"],
-            },
-            method="POST",
+            f"https://translate.googleapis.com/translate_a/single?{params}",
+            headers={"User-Agent": "Mozilla/5.0"},
         )
-        try:
-            with urllib.request.urlopen(request, timeout=90) as response:
-                result = json.load(response)
-                content = result["candidates"][0]["content"]["parts"][0]["text"].strip()
-            if content.startswith("```"):
-                content = content.split("\n", 1)[1].rsplit("```", 1)[0]
-            for translated in json.loads(content):
-                if translated.get("name") in unique and translated.get("zh"):
-                    unique[translated["name"]]["description"] = translated["zh"].strip()
-        except Exception as error:
-            raise RuntimeError(f"中文翻译失败，已停止发送英文日报：{error}") from error
+        last_error = None
+        for attempt in range(3):
+            try:
+                with urllib.request.urlopen(request, timeout=45) as response:
+                    result = json.load(response)
+                translated = "".join(part[0] for part in result[0] if part[0]).strip()
+                if not translated:
+                    raise RuntimeError("翻译接口返回空文本")
+                repo["description"] = translated
+                break
+            except Exception as error:
+                last_error = error
+                time.sleep(2 ** attempt)
+        else:
+            raise RuntimeError(f"中文翻译失败，已停止发送英文日报：{last_error}")
+        time.sleep(0.2)
 
 
 def search_repositories() -> dict[str, dict]:
