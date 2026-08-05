@@ -40,6 +40,53 @@ def github_json(path: str) -> dict:
         return json.load(response)
 
 
+def translate_descriptions(repositories: list[dict]) -> None:
+    """Translate only repositories that will appear in the report."""
+    unique = {repo["name"]: repo for repo in repositories}
+    items = [
+        {"name": repo["name"], "description": repo["description"]}
+        for repo in unique.values()
+    ]
+    for start in range(0, len(items), 10):
+        batch = items[start : start + 10]
+        payload = {
+            "model": "openai/gpt-4.1",
+            "temperature": 0.1,
+            "messages": [
+                {
+                    "role": "system",
+                    "content": (
+                        "你是开源项目编辑。把每个 GitHub 项目简介翻译并改写为准确、自然、"
+                        "简洁的一句中文，不添加原文没有的信息。只返回 JSON 数组，"
+                        "每项严格使用 name 和 zh 两个字段。"
+                    ),
+                },
+                {"role": "user", "content": json.dumps(batch, ensure_ascii=False)},
+            ],
+        }
+        request = urllib.request.Request(
+            "https://models.github.ai/inference/chat/completions",
+            data=json.dumps(payload).encode("utf-8"),
+            headers={
+                "Accept": "application/vnd.github+json",
+                "Authorization": f"Bearer {os.environ['GH_TOKEN']}",
+                "Content-Type": "application/json",
+                "X-GitHub-Api-Version": "2022-11-28",
+            },
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(request, timeout=90) as response:
+                content = json.load(response)["choices"][0]["message"]["content"].strip()
+            if content.startswith("```"):
+                content = content.split("\n", 1)[1].rsplit("```", 1)[0]
+            for translated in json.loads(content):
+                if translated.get("name") in unique and translated.get("zh"):
+                    unique[translated["name"]]["description"] = translated["zh"].strip()
+        except Exception as error:
+            print(f"Translation warning: {error}")
+
+
 def search_repositories() -> dict[str, dict]:
     repositories: dict[str, dict] = {}
     for category, query in CATEGORIES.items():
@@ -103,6 +150,8 @@ def generate_report(repositories: dict[str, dict], previous: dict) -> str:
 
     new_radar = [repo for name, repo in repositories.items() if name not in previous_repos]
     new_radar.sort(key=lambda item: item["stars"], reverse=True)
+
+    translate_descriptions(growth[:10] + recent[:10] + new_radar[:10])
 
     lines = [
         f"# GitHub AI 项目日报 · {now:%Y-%m-%d}",
