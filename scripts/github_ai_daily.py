@@ -71,7 +71,7 @@ def translate_descriptions(repositories: list[dict]) -> None:
                 "Accept": "application/vnd.github+json",
                 "Authorization": f"Bearer {os.environ['GH_TOKEN']}",
                 "Content-Type": "application/json",
-                "X-GitHub-Api-Version": "2022-11-28",
+                "X-GitHub-Api-Version": "2026-03-10",
             },
             method="POST",
         )
@@ -84,7 +84,7 @@ def translate_descriptions(repositories: list[dict]) -> None:
                 if translated.get("name") in unique and translated.get("zh"):
                     unique[translated["name"]]["description"] = translated["zh"].strip()
         except Exception as error:
-            print(f"Translation warning: {error}")
+            raise RuntimeError(f"中文翻译失败，已停止发送英文日报：{error}") from error
 
 
 def search_repositories() -> dict[str, dict]:
