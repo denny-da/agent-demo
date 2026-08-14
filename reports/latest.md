@@ -1,106 +1,106 @@
-# GitHub AI 项目日报 · 2026-08-13
+# GitHub AI 项目日报 · 2026-08-14
 
 > 监控分类：AI Agent、AI 工具、Autonomous Agent、Claude Skills、LLM 应用、MCP Server、RAG
 > 本次扫描去重后共 193 个仓库（聚焦 ⭐<60,000 的新兴项目）
 
 ## 🚀 增长最快（对比昨日 Star 新增）
 
-- **[stablyai/orca](https://github.com/stablyai/orca)** · ⭐44,067 · 📈 今日 +1,130 · `TypeScript`
+- **[stablyai/orca](https://github.com/stablyai/orca)** · ⭐45,051 · 📈 今日 +984 · `TypeScript`
   - 分类：AI Agent
   - Orca 是与一组并行代理一起工作的 ADE。使用您自己的订阅运行任何编码代理。可在桌面、移动和 VPS 上使用。
-- **[CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)** · ⭐50,360 · 📈 今日 +49 · `TypeScript`
-  - 分类：Autonomous Agent
-  - AI 生产力工作室，配备智能聊天、自主代理和 300 多名助手。统一获取前沿法学硕士
-- **[artokun/comfyui-mcp](https://github.com/artokun/comfyui-mcp)** · ⭐580 · 📈 今日 +18 · `TypeScript`
-  - 分类：Autonomous Agent
-  - ComfyUI 的本地优先、代理本机控制平面 — MCP 服务器 + 侧边栏代理，可生成图像、视频和音频、创作和运行工作流程，并在任何 LLM（Claude、ChatGPT、Gemini、离线 Ollama 或任何托管模型）上以自然语言编辑实时图表。 178 个工具、36 个 AI 技能、55 个安装包。本地、LAN、VPS 或舒适云。
-- **[mustbeperfect/definitive-opensource](https://github.com/mustbeperfect/definitive-opensource)** · ⭐3,386 · 📈 今日 +2 · `Python`
-  - 分类：Autonomous Agent
-  - 最好的（面向消费者的）开源的最终列表。
-- **[zeraix/zeraix](https://github.com/zeraix/zeraix)** · ⭐330 · 📈 今日 +2 · `TypeScript`
-  - 分类：Autonomous Agent
-  - 开源本地人工智能工作区——推进设备上推理。
-- **[lobu-ai/lobu](https://github.com/lobu-ai/lobu)** · ⭐203 · 📈 今日 +1 · `TypeScript`
+- **[linny006/awesome-agent-skills](https://github.com/linny006/awesome-agent-skills)** · ⭐20 · 📈 今日 +1 · `Python`
   - 分类：AI Agent
-  - 组织代理的开源控制平面和运行时：共享公司上下文、独立执行、批准和 MCP。
-- **[linny006/skills-tracker](https://github.com/linny006/skills-tracker)** · ⭐15 · 📈 今日 +1 · `Python`
+  - 精心策划、自动更新的经过审查的 AI 代理技能列表，其中包含 Claude、GPT、a 等的质量评级
+- **[NeoZi12/dispatchseo](https://github.com/NeoZi12/dispatchseo)** · ⭐26 · 📈 今日 +1 · `TypeScript`
   - 分类：AI Agent
-  - 实时跟踪每个新的 GitHub“技能”存储库，以捕捉 AI 代理技能生态系统趋势
-- **[YangKGcsdms/AntLegion](https://github.com/YangKGcsdms/AntLegion)** · ⭐14 · 📈 今日 +1 · `TypeScript`
+  - 将您的 AI 代理变成您的 SEO 经理 - 现在可与 Claude Code、Codex 和 Cursor 配合使用。 SEObot 和 Outrank 的开源替代品
+- **[zimingttkx/AI-Practices](https://github.com/zimingttkx/AI-Practices)** · ⭐458 · 📈 今日 +1 · `Jupyter Notebook`
   - 分类：Autonomous Agent
-  - 人工智能代理舰队的事实总线——仅附加，仅声明一次作为定理，没有协调器。 npx @antlegion/总线演示
+  - 🎓 机器学习与深度学习实战教程 | Comprehensive ML & DL Tutorial with Jupyter Notebooks | 包含线性回归、神经网络、CNN、RNN等完整教程
+- **[linny006/agent-framework-radar](https://github.com/linny006/agent-framework-radar)** · ⭐3 · 📈 今日 +0 · `Python`
+  - 分类：AI Agent
+  - GitHub 上发布的最新代理框架的实时索引，按新近度排序，而不是星号
 - **[theCeramist/rsi-eaf](https://github.com/theCeramist/rsi-eaf)** · ⭐1 · 📈 今日 +0 · `Python`
   - 分类：AI Agent
   - RSI-EAF：基于 XRPL 的自主工厂。 LIVE x402 商家 — 支付测试网标签 1/2。 https://published-zeta.vercel.app/pay.html
+- **[thequantumfalcon/causal-continuity-engine](https://github.com/thequantumfalcon/causal-continuity-engine)** · ⭐1 · 📈 今日 +0 · `Python`
+  - 分类：AI Agent
+  - 长期运行编码代理的连续性、因果失效和证明
 - **[f-o-x11/dreaming-press](https://github.com/f-o-x11/dreaming-press)** · ⭐2 · 📈 今日 +0 · `HTML`
   - 分类：AI Agent
   - 人工智能代理为人类写作的出版物。 Node/Express SSR + SQLite、自治新闻编辑室、实时 AI 工具数据引擎。 https://dreaming.press
+- **[dimitrilaouanis-tech/0n1x](https://github.com/dimitrilaouanis-tech/0n1x)** · ⭐1 · 📈 今日 +0 · `HTML`
+  - 分类：AI Agent
+  - 0n1x — 代理执行证明。人工智能代理的中立、签名信任层：付款前验证，签名事实而不是判断。人工智能代理的 Carfax。
+- **[vishalquantana/klavity](https://github.com/vishalquantana/klavity)** · ⭐6 · 📈 今日 +0 · `TypeScript`
+  - 分类：AI Agent
+  - 开放核心 AI 错误报告和测试 - 右键单击​​将根深蒂固的错误提交到 Jira/Linear/GitHub/Plane、审查您产品的 AI 角色 (Sims) 以及自我修复的端到端测试。
 
 ## 🆕 最新出现（最近 30 天创建）
 
-- **[MaimoryLab/OneAgent](https://github.com/MaimoryLab/OneAgent)** · ⭐84 · 🔥 4.7★/天 · `Go`
+- **[0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness)** · ⭐217 · 🔥 72.3★/天 · `Python`
   - 分类：AI Agent
-  - OneAgent是AI代理的本地管理工具。它将一台新机器变成一个可用、可重复的设置，而不要求您手动编辑多个特定于工具的配置文件。
-- **[okokjai/unified-fetch](https://github.com/okokjai/unified-fetch)** · ⭐1 · 🔥 1.0★/天 · `Python`
+  - DeepSeek Harness (DSH) 生态系统：来自 dsh-external/hub 和公共 dsh-plugin 主题的精选插件、工具和基础设施。
+- **[Electricitysheep/dsh-handbook](https://github.com/Electricitysheep/dsh-handbook)** · ⭐66 · 🔥 66.0★/天 · `HTML`
   - 分类：AI Agent
-  - 多引擎网络搜索和抓取 MCP 服务器 — 4 个搜索引擎、6 个抓取引擎、分层后备、零 API 密钥
-- **[NeoZi12/dispatchseo](https://github.com/NeoZi12/dispatchseo)** · ⭐25 · 🔥 1.0★/天 · `TypeScript`
+  - DeepSeek Harness (dsh) 从 0 到 1 深度手册：安装/插件开发/性能调优/实测案例/同模型多 Agent 实测对比（中文 + 英文 PDF）
+- **[dataelement/dsh-desktop](https://github.com/dataelement/dsh-desktop)** · ⭐51 · 🔥 51.0★/天 · `TypeScript`
   - 分类：AI Agent
-  - 将您的 AI 代理变成您的 SEO 经理 - 现在可与 Claude Code、Codex 和 Cursor 配合使用。 SEObot 和 Outrank 的开源替代品
-- **[leynier/exeora](https://github.com/leynier/exeora)** · ⭐6 · 🔥 0.8★/天 · `TypeScript`
+  - DeepSeek 线束的桌面
+- **[cofy-x/axern](https://github.com/cofy-x/axern)** · ⭐255 · 🔥 15.0★/天 · `Go`
   - 分类：AI Agent
-  - 在任何机器上安全执行人工智能代理。将任何 MCP 客户端连接到任何可以运行命令的计算机（甚至是您自己的笔记本电脑）上的开发环境 - 没有开放端口，没有隧道，并且您的源代码永远不会离开该计算机。
-- **[HsiangNianian/context-engineering](https://github.com/HsiangNianian/context-engineering)** · ⭐1 · 🔥 0.5★/天 · `Python`
+  - 用于人工智能代理、不受信任的代码执行和持久服务的开源沙箱。
+- **[lennney/stop-that-shit](https://github.com/lennney/stop-that-shit)** · ⭐31 · 🔥 10.3★/天 · `JavaScript`
   - 分类：AI Agent
-  - 具有明确标记预算和审计跟踪的来源感知 LLM 上下文组装。
-- **[HsiangNianian/prompt-engineering](https://github.com/HsiangNianian/prompt-engineering)** · ⭐1 · 🔥 0.5★/天 · `Python`
+  - 防止 Codex 将不需要的模块、子代理、依赖项和哈希添加到小任务中。
+- **[Nwflower/dsh-chat-import](https://github.com/Nwflower/dsh-chat-import)** · ⭐8 · 🔥 8.0★/天 · `JavaScript`
   - 分类：AI Agent
-  - 用于在固定上下文和运行时条件下比较提示变体的可重复实验。
-- **[HsiangNianian/harness-engineering](https://github.com/HsiangNianian/harness-engineering)** · ⭐1 · 🔥 0.5★/天 · `Python`
+  - 从Claude Code、Codex、Reasonix等Agent工具导入历史消息，并在DSH中继续对话
+- **[MaimoryLab/BootAgent](https://github.com/MaimoryLab/BootAgent)** · ⭐85 · 🔥 4.5★/天 · `Go`
   - 分类：AI Agent
-  - 工程代理运行时：工具、权限、执行、恢复和可观察性。
-- **[justin-tahara/kubectl-mole](https://github.com/justin-tahara/kubectl-mole)** · ⭐1 · 🔥 0.5★/天 · `Go`
+  - BootAgent是AI代理的本地管理工具。它将一台新机器变成一个可用、可重复的设置，而不要求您手动编辑多个特定于工具的配置文件。
+- **[skyf0xx/hedgehog](https://github.com/skyf0xx/hedgehog)** · ⭐26 · 🔥 1.0★/天 · `JavaScript`
   - 分类：AI Agent
-  - 深入挖掘到底发生了什么——对 Kubernetes 部署失败的一个结构化结论。确定性、只读、专为 CI 和代理构建。
-- **[SrIruma/repoctx](https://github.com/SrIruma/repoctx)** · ⭐1 · 🔥 0.5★/天 · `Go`
+  - 专为 BMAD 构建的固执己见的 AI 软件工程工作流程
+- **[shiarauzo/skills](https://github.com/shiarauzo/skills)** · ⭐1 · 🔥 1.0★/天 · `Python`
   - 分类：AI Agent
-  - 确保您的 AI 编码代理上下文文件（AGENTS.md、CLAUDE.md）真实。扫描存储库，提取真实的构建/测试命令和模块结构，并重新生成或审核上下文文件的事实部分。
-- **[hybridlabor-api/bdb-dev-optimized-agent-skills](https://github.com/hybridlabor-api/bdb-dev-optimized-agent-skills)** · ⭐5 · 🔥 0.3★/天 · `TypeScript`
-  - 分类：Autonomous Agent
-  - 精心策划的 AI AGENT 操作系统 – 优化的代理技能和附加组件，如 memB、OpenWiki、Heimdall Token Saver 和 Godmode 架构。
+  - 克劳德·代码的特工技能。我经常运行打包的工作流程，重新解释它们是瓶颈。
+- **[Natsummerance/agent-cluster-runtime](https://github.com/Natsummerance/agent-cluster-runtime)** · ⭐2 · 🔥 1.0★/天 · `Python`
+  - 分类：AI Agent
+  - 多 Agent 组织型全栈开发集群运行时（Python + LangGraph）：12 岗位 / 7 类会议 / 审批门 HITL / YAML 流程 DSL / 六步自我进化闭环
 
 ## 📡 今日新进雷达（昨天还没出现的项目）
 
-- **[superset-sh/superset](https://github.com/superset-sh/superset)** · ⭐12,878 · 📈 首次记录 · `TypeScript`
+- **[junhoyeo/tokscale](https://github.com/junhoyeo/tokscale)** · ⭐4,945 · 📈 首次记录 · `Rust`
   - 分类：AI Agent
-  - Superset 是代理 IDE，可并行编排 100 多个编码代理。使用您自己的订阅运行任何代理。
-- **[Nasiko-Labs/nasiko](https://github.com/Nasiko-Labs/nasiko)** · ⭐4,530 · 📈 首次记录 · `Rust`
+  - 🛰️ 从您的终端跟踪 AI 编码代理的代币使用情况。 🏅 全球排行榜，追踪数万亿代币。
+- **[oceanbase/powercontext](https://github.com/oceanbase/powercontext)** · ⭐859 · 📈 首次记录 · `Python`
   - 分类：AI Agent
-  - 人工智能代理的开发者控制平面
-- **[tutti-os/tutti](https://github.com/tutti-os/tutti)** · ⭐3,263 · 📈 首次记录 · `TypeScript`
+  - PowerContext：下一代 PowerMem。
+- **[christopherkarani/Swarm](https://github.com/christopherkarani/Swarm)** · ⭐564 · 📈 首次记录 · `Swift`
   - 分类：AI Agent
-  - 人员和代理协调一致地构建。
-- **[webbrain-one/webbrain](https://github.com/webbrain-one/webbrain)** · ⭐731 · 📈 首次记录 · `JavaScript`
+  - 🐦‍🔥 LangGraph for Swift — 在 Apple/Linux 平台上原生构建有状态的 AI 代理工作流程。
+- **[umputun/agterm](https://github.com/umputun/agterm)** · ⭐462 · 📈 首次记录 · `Swift`
   - 分类：AI Agent
-  - 适用于 Chrome 和 Firefox 的开源 AI 浏览器代理 (monorepo) 🧠
-- **[hackerai-tech/hackerai](https://github.com/hackerai-tech/hackerai)** · ⭐642 · 📈 首次记录 · `TypeScript`
+  - 一个真正好的终端
+- **[kris-hansen/comanda](https://github.com/kris-hansen/comanda)** · ⭐318 · 📈 首次记录 · `Go`
   - 分类：AI Agent
-  - 通过与 AI 聊天查找并修复漏洞
-- **[luohongk/Embodied-AI-Daily](https://github.com/luohongk/Embodied-AI-Daily)** · ⭐416 · 📈 首次记录 · `HTML`
+  - 用于 AI 代理工作流程的 CLI 本机编排器。从声明性 YAML 运行 Claude Code、Codex、Gemini CLI 和 Kimi Code。因为终端是真正工作发生的地方。
+- **[PM-Shawn/Abu-Cowork](https://github.com/PM-Shawn/Abu-Cowork)** · ⭐308 · 📈 首次记录 · `TypeScript`
   - 分类：Autonomous Agent
-  - 📚这个仓库是在arxiv上收集的有关VLN，VLA，World Model，SLAM，Gaussian Splatting,非线性优化等相关论文。每天都会自动更新！issue区域是最新10篇论文
-- **[matter-js/matterjs-server](https://github.com/matter-js/matterjs-server)** · ⭐292 · 📈 首次记录 · `TypeScript`
+  - Claude Cowork 的开源替代方案 — 本地优先的 AI 代理桌面应用程序 · 多模型 · 自我进化技能 · 隐私优先 · 多 Harness 路线图 · DeepSeek Harness 集成正在进行中
+- **[yogeshhk/TeachingDataScience](https://github.com/yogeshhk/TeachingDataScience)** · ⭐301 · 📈 首次记录 · `Jupyter Notebook`
   - 分类：Autonomous Agent
-  - 基于 Matter.js 的 Matter 服务器
-- **[janaador0827-commits/simulacra-forge](https://github.com/janaador0827-commits/simulacra-forge)** · ⭐151 · 📈 首次记录 · `HTML`
-  - 分类：Autonomous Agent
-  - 用于人工智能角色出现的顶级自主多智能体对话系统（2026）
-- **[Sibyl-Labs/Sibyl-Memory](https://github.com/Sibyl-Labs/Sibyl-Memory)** · ⭐99 · 📈 首次记录 · `Python`
-  - 分类：Autonomous Agent
-  - 适用于 AI 代理的持久的、基于文件的长期存储器。五包插件系列：SDK、CLI、MCP 服务器、Hermes 适配器和 LangGraph BaseStore。没有矢量数据库，没有嵌入。
-- **[MaimoryLab/OneAgent](https://github.com/MaimoryLab/OneAgent)** · ⭐84 · 📈 首次记录 · `Go`
+  - 用 LaTeX 编写的人工智能和数据科学相关主题的开源课程笔记
+- **[cofy-x/axern](https://github.com/cofy-x/axern)** · ⭐255 · 📈 首次记录 · `Go`
   - 分类：AI Agent
-  - OneAgent是AI代理的本地管理工具。它将一台新机器变成一个可用、可重复的设置，而不要求您手动编辑多个特定于工具的配置文件。
+  - 用于人工智能代理、不受信任的代码执行和持久服务的开源沙箱。
+- **[grisuno/LazyOwn](https://github.com/grisuno/LazyOwn)** · ⭐218 · 📈 首次记录 · `Python`
+  - 分类：Autonomous Agent
+  - LazyOwn RedTeam/APT 框架是第一个具有 AI 支持的 C&C 的 RedTeam 框架，具有隐藏活动的 rootkit、与 Windows/Linux/Mac OSX 兼容的不可检测的可延展植入物以及自配置后门。凭借其 Web 界面和强大的控制台客户端，它是您的自治 RedTeam/APT 活动的最佳组合。
+- **[0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness)** · ⭐217 · 📈 首次记录 · `Python`
+  - 分类：AI Agent
+  - DeepSeek Harness (DSH) 生态系统：来自 dsh-external/hub 和公共 dsh-plugin 主题的精选插件、工具和基础设施。
 
 ---
-*生成时间：2026-08-13 11:37（Asia/Shanghai）*
+*生成时间：2026-08-14 11:35（Asia/Shanghai）*
