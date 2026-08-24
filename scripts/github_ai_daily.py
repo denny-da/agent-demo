@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import smtplib
 import time
 import urllib.parse
@@ -41,13 +42,34 @@ def github_json(path: str) -> dict:
 
 
 def translate_descriptions(repositories: list[dict]) -> None:
-    """Translate only repositories that will appear in the report."""
+    """Translate report descriptions in small batches, with an English fallback."""
     unique = {repo["name"]: repo for repo in repositories}
-    originals = {name: repo["description"] for name, repo in unique.items()}
-    for repo in unique.values():
-        source = repo["description"]
-        if any("\u4e00" <= char <= "\u9fff" for char in source):
-            continue
+    pending = [
+        repo for repo in unique.values()
+        if not any("\u4e00" <= char <= "\u9fff" for char in repo["description"])
+    ]
+
+    # The unofficial free endpoint limits request frequency.  Combining several
+    # descriptions into a request turns about 30 daily calls into only a few.
+    batches: list[list[dict]] = []
+    batch: list[dict] = []
+    batch_size = 0
+    for repo in pending:
+        size = len(repo["description"]) + 20
+        if batch and (len(batch) >= 6 or batch_size + size > 3000):
+            batches.append(batch)
+            batch, batch_size = [], 0
+        batch.append(repo)
+        batch_size += size
+    if batch:
+        batches.append(batch)
+
+    translated_count = 0
+    for batch in batches:
+        source = "\n".join(
+            f"[[[GITHUB_DAILY_{index:03d}]]]\n{repo['description']}"
+            for index, repo in enumerate(batch)
+        )
         params = urllib.parse.urlencode(
             {"client": "gtx", "sl": "auto", "tl": "zh-CN", "dt": "t", "q": source}
         )
@@ -55,25 +77,35 @@ def translate_descriptions(repositories: list[dict]) -> None:
             f"https://translate.googleapis.com/translate_a/single?{params}",
             headers={"User-Agent": "Mozilla/5.0"},
         )
-        last_error = None
-        for attempt in range(3):
+        last_error: Exception | None = None
+        for attempt in range(5):
             try:
                 with urllib.request.urlopen(request, timeout=45) as response:
                     result = json.load(response)
                 translated = "".join(part[0] for part in result[0] if part[0]).strip()
                 if not translated:
                     raise RuntimeError("翻译接口返回空文本")
-                repo["description"] = translated
+                parts = re.split(r"\[\[\[GITHUB_DAILY_(\d{3})\]\]\]", translated)
+                translated_by_index = {
+                    int(parts[position]): parts[position + 1].strip()
+                    for position in range(1, len(parts) - 1, 2)
+                }
+                if len(translated_by_index) != len(batch):
+                    raise RuntimeError("翻译结果不完整")
+                for index, repo in enumerate(batch):
+                    repo["description"] = translated_by_index[index]
+                    translated_count += 1
                 break
             except Exception as error:
                 last_error = error
-                time.sleep(2 ** attempt)
+                time.sleep(min(30, 3 * (2 ** attempt)))
         else:
-            for name, original in originals.items():
-                unique[name]["description"] = original
-            print(f"中文翻译失败，本次恢复发送英文日报：{last_error}")
-            return
-        time.sleep(0.2)
+            # Keep translations from earlier batches.  Only this small batch is
+            # left in English so the email is still delivered every day.
+            print(f"部分中文翻译失败，本批保留英文：{last_error}")
+        time.sleep(1)
+
+    print(f"简介中文翻译完成：{translated_count}/{len(pending)} 条")
 
 
 def search_repositories() -> dict[str, dict]:
