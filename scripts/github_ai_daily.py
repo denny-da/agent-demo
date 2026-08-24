@@ -43,6 +43,7 @@ def github_json(path: str) -> dict:
 def translate_descriptions(repositories: list[dict]) -> None:
     """Translate only repositories that will appear in the report."""
     unique = {repo["name"]: repo for repo in repositories}
+    originals = {name: repo["description"] for name, repo in unique.items()}
     for repo in unique.values():
         source = repo["description"]
         if any("\u4e00" <= char <= "\u9fff" for char in source):
@@ -68,7 +69,10 @@ def translate_descriptions(repositories: list[dict]) -> None:
                 last_error = error
                 time.sleep(2 ** attempt)
         else:
-            raise RuntimeError(f"中文翻译失败，已停止发送英文日报：{last_error}")
+            for name, original in originals.items():
+                unique[name]["description"] = original
+            print(f"中文翻译失败，本次恢复发送英文日报：{last_error}")
+            return
         time.sleep(0.2)
 
 
