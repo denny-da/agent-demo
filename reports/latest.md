@@ -1,106 +1,106 @@
-# GitHub AI 项目日报 · 2026-08-24
+# GitHub AI 项目日报 · 2026-08-25
 
 > 监控分类：AI Agent、AI 工具、Autonomous Agent、Claude Skills、LLM 应用、MCP Server、RAG
 > 本次扫描去重后共 193 个仓库（聚焦 ⭐<60,000 的新兴项目）
 
 ## 🚀 增长最快（对比昨日 Star 新增）
 
-- **[stablyai/orca](https://github.com/stablyai/orca)** · ⭐52,005 · 📈 今日 +12 · `TypeScript`
+- **[stablyai/orca](https://github.com/stablyai/orca)** · ⭐52,905 · 📈 今日 +900 · `TypeScript`
   - 分类：AI Agent
   - Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.
-- **[mastra-ai/mastra](https://github.com/mastra-ai/mastra)** · ⭐27,395 · 📈 今日 +4 · `TypeScript`
-  - 分类：Autonomous Agent
-  - Mastra is the modern TypeScript framework for AI-powered applications and agents.
-- **[NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw)** · ⭐22,255 · 📈 今日 +1 · `TypeScript`
+- **[NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw)** · ⭐22,265 · 📈 今日 +10 · `TypeScript`
   - 分类：AI Agent
   - Run agents like Hermes, LangChain Deep Agents, and OpenClaw more securely inside NVIDIA OpenShell with managed inference
-- **[thierrypdamiba/teeth](https://github.com/thierrypdamiba/teeth)** · ⭐0 · 📈 今日 +0 · `Python`
+- **[marcusquinn/aidevops](https://github.com/marcusquinn/aidevops)** · ⭐385 · 📈 今日 +3 · `Shell`
   - 分类：AI Agent
-  - Evals with teeth: score your agents on the future — live prediction markets they can't game — and pay them in capital. Benchmarks saturate; the future doesn't.
-- **[Mygentic-AI/cello-client](https://github.com/Mygentic-AI/cello-client)** · ⭐1 · 📈 今日 +0 · `TypeScript`
+  - Vibe-Coding is easy. DevOps is hard. OpenCode & Git token-efficient AI agent automation for your app, business, and personal development. Opinionated tools, services, CLI & API stack for speed, security, and 24/7 results. Open-source first. SOTA everything. Try on your repos for money-making magic.
+- **[linny006/awesome-agent-skills](https://github.com/linny006/awesome-agent-skills)** · ⭐26 · 📈 今日 +1 · `Python`
   - 分类：AI Agent
-  - The official client for the CELLO protocol — MCP server and native adapters for OpenClaw, NanoClaw, IronClaw, ZeroClaw, and other agent variants
-- **[stalker0321/vuzol](https://github.com/stalker0321/vuzol)** · ⭐0 · 📈 今日 +0 · `Python`
+  - Curated, auto-updated awesome-list of vetted AI agent skills with quality ratings for Claude, GPT, a
+- **[anthony-chaudhary/fak](https://github.com/anthony-chaudhary/fak)** · ⭐32 · 📈 今日 +1 · `Go`
   - 分类：AI Agent
-  - Self-hosted AI task orchestrator controlled from Telegram
-- **[Mygentic-AI/CELLO](https://github.com/Mygentic-AI/CELLO)** · ⭐2 · 📈 今日 +0 · `TypeScript`
+  - Create your Agentic AIs.
+- **[zimingttkx/AI-Practices](https://github.com/zimingttkx/AI-Practices)** · ⭐460 · 📈 今日 +1 · `Jupyter Notebook`
+  - 分类：Autonomous Agent
+  - 🎓 机器学习与深度学习实战教程 | Comprehensive ML & DL Tutorial with Jupyter Notebooks | 包含线性回归、神经网络、CNN、RNN等完整教程
+- **[quangdang46/agents_environment_setup](https://github.com/quangdang46/agents_environment_setup)** · ⭐5 · 📈 今日 +0 · `Shell`
   - 分类：AI Agent
-  - Private peer-to-peer identity, trust, and verification infrastructure for agent-to-agent communication — agent registry, verified identity, and tamper-proof message history
+  - One command to turn a fresh Ubuntu VPS into a production-ready AI coding agent environment. Installs Claude Code, Codex CLI, Gemini CLI, language runtimes, and 40+ dev tools via idempotent curl|bash installer.
+- **[linny006/llm-agents-radar](https://github.com/linny006/llm-agents-radar)** · ⭐8 · 📈 今日 +0 · `Python`
+  - 分类：AI Agent
+  - Live-updating index of LLM agent frameworks shipping on GitHub, refreshed every 15 minutes
+- **[riteshekbote/hunt-lab](https://github.com/riteshekbote/hunt-lab)** · ⭐1 · 📈 今日 +0 · `Python`
+  - 分类：AI Agent
+  - 24/7 multi-model bug-hunting automation for Google VRP + Microsoft Bounty (passive, in-scope, read-only). 5 opencode models, 10-min cadence, repo deep-scan, triager validation.
 - **[theCeramist/rsi-eaf](https://github.com/theCeramist/rsi-eaf)** · ⭐2 · 📈 今日 +0 · `Python`
   - 分类：AI Agent
   - RSI-EAF: XRPL-grounded autonomous factory. LIVE x402 merchant — pay testnet Tag 1/2. https://published-zeta.vercel.app/pay.html
-- **[Mejustmeb/Mejustmeb.github.io](https://github.com/Mejustmeb/Mejustmeb.github.io)** · ⭐0 · 📈 今日 +0 · `HTML`
-  - 分类：AI Agent
-  - software development
-- **[kishuxz/provenance-guard](https://github.com/kishuxz/provenance-guard)** · ⭐0 · 📈 今日 +0 · `TypeScript`
-  - 分类：AI Agent
-  - Inline provenance enforcement and lineage graphs for reliable AI agents—block invalid evidence, refuse unsupported claims, and explain every verdict.
 
 ## 🆕 最新出现（最近 30 天创建）
 
-- **[Zyrexnn/Cybermes](https://github.com/Zyrexnn/Cybermes)** · ⭐277 · 🔥 55.4★/天 · `Python`
+- **[lamost423/dsh-trace-compare](https://github.com/lamost423/dsh-trace-compare)** · ⭐44 · 🔥 6.3★/天 · `HTML`
+  - 分类：AI Agent
+  - Trace Compare & Live Maze for DeepSeek Harness: visualize agent exploration (main path, detours, backtracks) from session logs or live sessions
+- **[Sidiora-Labs/LayerX-Protocol](https://github.com/Sidiora-Labs/LayerX-Protocol)** · ⭐17 · 🔥 1.5★/天 · `Go`
   - 分类：Autonomous Agent
-  - Autonomous Offensive Security, Bug Bounty & Red Teaming Agent Framework powered by Hermes Agent, specialized reasoning skills, and multi-model LLM orchestration.
-- **[scgopi/GraphCode](https://github.com/scgopi/GraphCode)** · ⭐47 · 🔥 1.6★/天 · `Swift`
-  - 分类：AI Agent
-  - Graph Engineering, simplified — with GraphCode. #graphcode
-- **[TalhaIbnaBanna/CVision](https://github.com/TalhaIbnaBanna/CVision)** · ⭐1 · 🔥 1.0★/天 · `Python`
+  - 无公开描述
+- **[roblarsen/ACM](https://github.com/roblarsen/ACM)** · ⭐1 · 🔥 1.0★/天 · `TypeScript`
   - 分类：Autonomous Agent
-  - Agentic AI recruitment platform that automates CV parsing, semantic candidate ranking, and recruiter communication using BERT, Gemini 2.5 Flash, and Google APIs.
-- **[seed-forge/harness-ai-kit](https://github.com/seed-forge/harness-ai-kit)** · ⭐16 · 🔥 0.9★/天 · `Python`
+  - 无公开描述
+- **[Cubinghackerz/ai.diy](https://github.com/Cubinghackerz/ai.diy)** · ⭐9 · 🔥 0.4★/天 · `TypeScript`
   - 分类：AI Agent
-  - Package manager for AI agent assets — 42 skills, 5 CLIs, 1 plugin. Skills for AI/LLM agent engineering, eval-driven dev, spec-driven dev, database (MySQL/PG/Redis/Kafka/Mongo/Oracle/NL2SQL), K8s/Docker diagnostics, infra ops (Dify/Nexus/Harbor/SonarQube) & docs/patent. Runtimes: Codex, Claude Code, Cursor, Kiro, DSH.
-- **[MicroMilo/upstream-radar](https://github.com/MicroMilo/upstream-radar)** · ⭐8 · 🔥 0.8★/天 · `TypeScript`
+  - Open-source, local-first AI workspace with 20+ providers, agents, MCP, browser Python, and an in-browser Linux environment. BYOK and self-hostable.
+- **[johncattrall/keymap-ai](https://github.com/johncattrall/keymap-ai)** · ⭐1 · 🔥 0.3★/天 · `Python`
   - 分类：AI Agent
-  - Always-on compatibility testing for DeepSeek Harness plugins: exact releases, isolated runners, and fixable upstream issues.
-- **[traqix/trooper](https://github.com/traqix/trooper)** · ⭐1 · 🔥 0.5★/天 · `Rust`
+  - Agent Skill that turns your coding agent into a keyboard firmware expert. Audits ZMK/QMK keymaps, tunes home row mods, makes trackballs layer-aware, generates keymap diagrams with CI, adds alt layouts (Graphite, Colemak-DH), and debugs the failures the docs don't cover. Works with Claude Code, Codex, Cursor, Gemini CLI and more.
+- **[nikships/foundry](https://github.com/nikships/foundry)** · ⭐3 · 🔥 0.2★/天 · `TypeScript`
   - 分类：AI Agent
-  - Turn long-form video into publish-ready vertical clips: planned cuts, word-level karaoke captions, adaptive face tracking and 9:16 renders — resumable and cached at every stage. One pipeline behind a CLI, an HTTP API, a web editor and a Tauri desktop app.
-- **[doeixd/effect-agent](https://github.com/doeixd/effect-agent)** · ⭐2 · 🔥 0.5★/天 · `TypeScript`
-  - 分类：AI Agent
-  - An Effect-native agent execution kernel: sessions, runs, turns, steering, follow-ups and typed lifecycle events on top of Effect AI.
-- **[mosonlab/agentos](https://github.com/mosonlab/agentos)** · ⭐2 · 🔥 0.4★/天 · `TypeScript`
-  - 分类：AI Agent
-  - A local, single-operator control plane for assigning scoped software tasks to coding agents — observable, durable, gated. An independent build inspired by Danny Postma's video 'How I Built My Own AgentOS on Claude's Agent SDK (So You Can Too)'. v0.1.0 Developer Preview.
-- **[siddhartha-yz/dsh-mcp-gateway](https://github.com/siddhartha-yz/dsh-mcp-gateway)** · ⭐4 · 🔥 0.4★/天 · `Python`
+  - Run a shop, not a chat. The software factory for builders who ship.
+- **[NullAITech/zoth-studio](https://github.com/NullAITech/zoth-studio)** · ⭐1 · 🔥 0.1★/天 · `HTML`
   - 分类：Autonomous Agent
-  - Connect ChatGPT Web to DSH through OAuth + MCP, exposing DSH-native tools, skills, policies, and community extensions.
-- **[unStone/dsh-xray](https://github.com/unStone/dsh-xray)** · ⭐2 · 🔥 0.3★/天 · `Python`
+  - Local-first sovereign AI studio & multi-agent swarm orchestrator. Synthesizes fullstack websites, apps, and │ security audits with 16 autonomous companions. Built on Antigravity, Grok, Hermes & Ollama.
+- **[hansololz/autowright](https://github.com/hansololz/autowright)** · ⭐2 · 🔥 0.1★/天 · `Python`
   - 分类：AI Agent
-  - X-ray for DeepSeek Harness plugins: declared capabilities vs actual behavior. Registry + static scanner + badges.
+  - Make it easy to automate personal desktop tasks
+- **[EdbertChan/catstack](https://github.com/EdbertChan/catstack)** · ⭐1 · 🔥 0.1★/天 · `Python`
+  - 分类：AI Agent
+  - Personal Claude, Cursor, and Codex skills — one install, one source of truth
+- **[RFingAdam/mcp-rs-cmw500](https://github.com/RFingAdam/mcp-rs-cmw500)** · ⭐2 · 🔥 0.1★/天 · `Python`
+  - 分类：AI Agent
+  - MCP server for Rohde & Schwarz CMW500 radio communication tester
 
 ## 📡 今日新进雷达（昨天还没出现的项目）
 
-- **[HKUDS/nanobot](https://github.com/HKUDS/nanobot)** · ⭐47,314 · 📈 首次记录 · `Python`
+- **[aaif-goose/goose](https://github.com/aaif-goose/goose)** · ⭐53,396 · 📈 首次记录 · `Rust`
   - 分类：AI Agent
-  - Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps
-- **[kortix-ai/suna](https://github.com/kortix-ai/suna)** · ⭐20,132 · 📈 首次记录 · `TypeScript`
+  - an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
+- **[mustbeperfect/definitive-opensource](https://github.com/mustbeperfect/definitive-opensource)** · ⭐3,394 · 📈 首次记录 · `Python`
+  - 分类：Autonomous Agent
+  - The definitive list of the best of (consumer facing) open source.
+- **[artokun/comfyui-mcp](https://github.com/artokun/comfyui-mcp)** · ⭐671 · 📈 首次记录 · `TypeScript`
+  - 分类：Autonomous Agent
+  - Local-first, agent-native control plane for ComfyUI — MCP server + sidebar agent that generates images, video & audio, authors and runs workflows, and edits your live graph in natural language on ANY LLM (Claude, ChatGPT, Gemini, offline Ollama, or any hosted model). 178 tools, 36 AI skills, 55 installer packs. Local, LAN, VPS, or Comfy Cloud.
+- **[UKGovernmentBEIS/inspect_evals](https://github.com/UKGovernmentBEIS/inspect_evals)** · ⭐642 · 📈 首次记录 · `Python`
+  - 分类：Autonomous Agent
+  - Collection of evals for Inspect AI
+- **[melgarafael/DeskcommCRM](https://github.com/melgarafael/DeskcommCRM)** · ⭐610 · 📈 首次记录 · `TypeScript`
   - 分类：AI Agent
-  - The open-source AI Management System
-- **[kyegomez/swarms](https://github.com/kyegomez/swarms)** · ⭐7,076 · 📈 首次记录 · `Python`
+  - Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.
+- **[QuixiAI/Hexis](https://github.com/QuixiAI/Hexis)** · ⭐606 · 📈 首次记录 · `Python`
   - 分类：Autonomous Agent
-  - The Enterprise-Grade Multi-Agent Orchestration Framework. Website: https://swarms.ai
-- **[zimingttkx/AI-Practices](https://github.com/zimingttkx/AI-Practices)** · ⭐459 · 📈 首次记录 · `Jupyter Notebook`
-  - 分类：Autonomous Agent
-  - 🎓 机器学习与深度学习实战教程 | Comprehensive ML & DL Tutorial with Jupyter Notebooks | 包含线性回归、神经网络、CNN、RNN等完整教程
-- **[chadbyte/clay](https://github.com/chadbyte/clay)** · ⭐387 · 📈 首次记录 · `JavaScript`
+  - 无公开描述
+- **[gakonst/nanocodex](https://github.com/gakonst/nanocodex)** · ⭐425 · 📈 首次记录 · `Rust`
   - 分类：AI Agent
-  - Multiplayer Claude Code and Codex. Self-hosted team workspace for Claude Code and Codex. Multi-user, browser-based, AI mates with memory.
-- **[Zyrexnn/Cybermes](https://github.com/Zyrexnn/Cybermes)** · ⭐277 · 📈 首次记录 · `Python`
+  - Building blocks for frontier OpenAI agents in Rust. Nanocodex empowers you with Codex-level performance anywhere.
+- **[imbue-ai/mngr](https://github.com/imbue-ai/mngr)** · ⭐408 · 📈 首次记录 · `Python`
   - 分类：Autonomous Agent
-  - Autonomous Offensive Security, Bug Bounty & Red Teaming Agent Framework powered by Hermes Agent, specialized reasoning skills, and multi-model LLM orchestration.
-- **[youngbryan97/aura](https://github.com/youngbryan97/aura)** · ⭐76 · 📈 首次记录 · `Python`
-  - 分类：Autonomous Agent
-  - A cognitive architecture that runs on your own machine. Internal state reaches generation through the model's activations, not the system prompt — and every consequential action leaves a receipt you can audit. Not an assistant. IIT 4.0 φ, CAA steering, 136 consciousness modules, local on Apple Silicon.
-- **[hanyeol/model-compose](https://github.com/hanyeol/model-compose)** · ⭐76 · 📈 首次记录 · `Python`
-  - 分类：Autonomous Agent
-  - Deploy production-ready AI services in minutes. One YAML file for agents, RAG pipelines, and MCP servers — run anywhere. Inspired by docker-compose.
-- **[ClipboardHealth/groundcrew](https://github.com/ClipboardHealth/groundcrew)** · ⭐62 · 📈 首次记录 · `TypeScript`
+  - CLI for managing coding agents
+- **[Mathews-Tom/armory](https://github.com/Mathews-Tom/armory)** · ⭐314 · 📈 首次记录 · `Python`
   - 分类：AI Agent
-  - Dispatch your task backlog to local, interactive AI coding agents. One git worktree per task, sandboxed by default.
-- **[morluto/jacobian](https://github.com/morluto/jacobian)** · ⭐57 · 📈 首次记录 · `Python`
+  - Curated, production-grade skills for AI coding agents. Battle-tested workflows for developers who use AI seriously.
+- **[Dicklesworthstone/mcp_agent_mail_rust](https://github.com/Dicklesworthstone/mcp_agent_mail_rust)** · ⭐152 · 📈 首次记录 · `Rust`
   - 分类：AI Agent
-  - A universal, atomic library of mathematics and tools for agents to compose them.
+  - Rust MCP server for multi-agent coordination: 34 tools, Git-backed archive, SQLite indexing, advisory file locks, and an interactive TUI console
 
 ---
-*生成时间：2026-08-24 10:41（Asia/Shanghai）*
+*生成时间：2026-08-25 10:35（Asia/Shanghai）*
