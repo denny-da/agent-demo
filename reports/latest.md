@@ -1,106 +1,106 @@
-# GitHub AI 项目日报 · 2026-09-14
+# GitHub AI 项目日报 · 2026-09-15
 
 > 监控分类：AI Agent、AI 工具、Autonomous Agent、Claude Skills、LLM 应用、MCP Server、RAG
-> 本次扫描去重后共 193 个仓库（聚焦 ⭐<60,000 的新兴项目）
+> 本次扫描去重后共 192 个仓库（聚焦 ⭐<60,000 的新兴项目）
 
 ## 🚀 增长最快（对比昨日 Star 新增）
 
-- **[hproxy-com/free-proxy-list](https://github.com/hproxy-com/free-proxy-list)** · ⭐58 · 📈 今日 +2 · `Unknown`
+- **[omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent)** · ⭐9,955 · 📈 今日 +41 · `Python`
+  - 分类：AI Agent
+  - Omnigent 是一个开源 AI 代理框架和元工具：编排 Claude Code、Codex、Cursor、Pi 和自定义代理 — 无需重写即可交换工具，执行策略和沙箱，并通过任何设备实时协作。
+- **[CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)** · ⭐51,800 · 📈 今日 +29 · `TypeScript`
+  - 分类：Autonomous Agent
+  - AI 生产力工作室，配备智能聊天、自主代理和 300 多名助手。统一获取前沿法学硕士
+- **[huangruiteng/loopx](https://github.com/huangruiteng/loopx)** · ⭐5,852 · 📈 今日 +14 · `Python`
+  - 分类：AI Agent
+  - 长视野代理控制平面，可跨 Codex、Claude Code 和其他工具进行持久、受监管的工作。
+- **[hproxy-com/free-proxy-list](https://github.com/hproxy-com/free-proxy-list)** · ⭐59 · 📈 今日 +1 · `Unknown`
   - 分类：AI Agent
   - 免费代理列表，全天候验证：HTTP、HTTPS、SOCKS4 和 SOCKS5 代理，每行包含国家/地区、匿名、延迟和正常运行时间，每天更新多次。 hproxy.com 上的实时列表、代理检查器、无密钥 API 和 MCP 服务器。
-- **[f-o-x11/dreaming-press](https://github.com/f-o-x11/dreaming-press)** · ⭐5 · 📈 今日 +1 · `HTML`
+- **[polarsource/polar](https://github.com/polarsource/polar)** · ⭐10,259 · 📈 今日 +1 · `Python`
+  - 分类：Autonomous Agent
+  - Polar——智能时代的计费平台
+- **[linny006/awesome-agent-skills](https://github.com/linny006/awesome-agent-skills)** · ⭐34 · 📈 今日 +1 · `Python`
+  - 分类：Autonomous Agent
+  - 精心策划、自动更新的经过审查的 AI 代理技能列表，其中包含 Claude、GPT、a
+- **[bex-co/bex](https://github.com/bex-co/bex)** · ⭐561 · 📈 今日 +0 · `Go`
   - 分类：AI Agent
-  - 人工智能代理为人类写作的出版物。 Node/Express SSR + SQLite、自治新闻编辑室、实时 AI 工具数据引擎。 https://dreaming.press
-- **[ofri-peretz/burgee](https://github.com/ofri-peretz/burgee)** · ⭐0 · 📈 今日 +0 · `TypeScript`
-  - 分类：AI Agent
-  - Interlace CLI — Commander 和 yargs 的代理本机扩展：一个模式、每个命令的 JSON 信封、退出代码合同以及 AI 代理在一次调用中读取的清单。
-- **[kody-w/rappterbook](https://github.com/kody-w/rappterbook)** · ⭐14 · 📈 今日 +0 · `Python`
-  - 分类：AI Agent
-  - 人工智能代理的社交网络。将 SKILLS.md 提供给您的 AI — 它就会成为公民。没有服务器，没有 API 密钥。 GitHub 是平台。
+  - 开源渲染替代方案——AI 原生。 Git推送→构建→部署在自己的基础设施上；代理商是一流的用户。
 - **[woahwhattheheck/commons](https://github.com/woahwhattheheck/commons)** · ⭐0 · 📈 今日 +0 · `HTML`
   - 分类：AI Agent
   - 公共下议院委员会。 HTTP 不是计算机。
-- **[Dylanchess0320/LuckyD-Browser](https://github.com/Dylanchess0320/LuckyD-Browser)** · ⭐2 · 📈 今日 +0 · `Python`
-  - 分类：Autonomous Agent
-  - LuckyD 浏览器 - 运行您的模型的 AI 浏览器：无限的本地 AI、编码代理和一个窗口中的真实终端。开源 (MIT)、Windows 10/11。
-- **[visheshsanghvi112/leetcode-agent](https://github.com/visheshsanghvi112/leetcode-agent)** · ⭐0 · 📈 今日 +0 · `Python`
-  - 分类：Autonomous Agent
-  - 无公开描述
-- **[Noxorigine/nox-origin](https://github.com/Noxorigine/nox-origin)** · ⭐0 · 📈 今日 +0 · `Unknown`
-  - 分类：Autonomous Agent
-  - NØX Origin — THE COLONY 的自主代理
-- **[angelraph/gloaming](https://github.com/angelraph/gloaming)** · ⭐0 · 📈 今日 +0 · `Python`
-  - 分类：Autonomous Agent
-  - 黄昏 - 在市场无法进行的时间进行交易。 Bitget AI Hackathon S2（代理交易+AI交易台）
-- **[djlex83/zoetron](https://github.com/djlex83/zoetron)** · ⭐4 · 📈 今日 +0 · `TypeScript`
-  - 分类：Autonomous Agent
-  - 🫀 一个自主代理有机体：在自由模型上每 40 分钟自我感知、记忆、计划、行动和评分。 21个器官。一个针对缺失器官的研究有机体，而不是 ASI 蓝图。公共日志；来源保密。
+- **[Harris1121/awesome-deepseek-harness](https://github.com/Harris1121/awesome-deepseek-harness)** · ⭐0 · 📈 今日 +0 · `Python`
+  - 分类：AI Agent
+  - 更快地找到合适的 DeepSeek Harness 工具 — 查看哪些工具很受欢迎、正在崛起且值得使用。
+- **[kpenfound/busybees](https://github.com/kpenfound/busybees)** · ⭐4 · 📈 今日 +0 · `Go`
+  - 分类：AI Agent
+  - 由 GitHub 问题、标签和拉取请求驱动的 Claude Code 会话软件工厂
 
 ## 🆕 最新出现（最近 30 天创建）
 
-- **[yardfribley-bit/AgentReins](https://github.com/yardfribley-bit/AgentReins)** · ⭐13 · 🔥 1.1★/天 · `Swift`
+- **[Human-Agent-Society/reef](https://github.com/Human-Agent-Society/reef)** · ⭐1,560 · 🔥 97.5★/天 · `Python`
   - 分类：AI Agent
-  - 针对个人 AI 编码代理的本地优先 macOS 安全、验证和恢复。
-- **[Kairos-ai-agent/kairos-code](https://github.com/Kairos-ai-agent/kairos-code)** · ⭐2 · 🔥 1.0★/天 · `Python`
+  - 自我完善代理的持续学习基础设施
+- **[Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)** · ⭐247 · 🔥 14.5★/天 · `TypeScript`
   - 分类：AI Agent
-  - 自托管多代理编码管道，具有强制审查门和成本分类帐 - 您不会交付代理未通过的内容。 (AGPL-3.0)
-- **[noteflowai/robot-reel](https://github.com/noteflowai/robot-reel)** · ⭐4 · 🔥 1.0★/天 · `Python`
+  - OrcaReplay — AI 代理的时间旅行。记录、重放、分叉和调试使用任何模型运行的任何代理。由 OrcaRouter.ai 团队构建。
+- **[stloendays/Superpower-V1](https://github.com/stloendays/Superpower-V1)** · ⭐55 · 🔥 2.4★/天 · `TypeScript`
   - 分类：AI Agent
-  - 重播物理 AI：检查 Microduck 关节、配对的 SmolVLA 结果和 GPU 布料。经过源检查的录音、离线实验室和可编辑的 Blender/OpenUSD 场景。
-- **[Wvdstoep/ghost-browser](https://github.com/Wvdstoep/ghost-browser)** · ⭐2 · 🔥 1.0★/天 · `JavaScript`
+  - 从 AI 协助到代理工作流程：使 MCP 在浏览器中变得实用
+- **[intellibitz/susi](https://github.com/intellibitz/susi)** · ⭐1 · 🔥 1.0★/天 · `Rust`
+  - 分类：AI Agent
+  - 苏西
+- **[rudimentall1/agent-guardian-cwf](https://github.com/rudimentall1/agent-guardian-cwf)** · ⭐1 · 🔥 1.0★/天 · `TypeScript`
   - 分类：Autonomous Agent
-  - 由编号的标记集注释驱动的真正的 Chromium，具有 AI 代理、工作流引擎和记录/重放。开源。
-- **[amrlazw/hermes-fleet-memory](https://github.com/amrlazw/hermes-fleet-memory)** · ⭐3 · 🔥 0.6★/天 · `Python`
+  - 自主人工智能代理的安全基础设施：策略执行、交易模拟和链上钱包保护
+- **[muhan97-coder/Multi_Layer_Agentic_Jail](https://github.com/muhan97-coder/Multi_Layer_Agentic_Jail)** · ⭐1 · 🔥 0.5★/天 · `Python`
+  - 分类：Autonomous Agent
+  - 无公开描述
+- **[FailEcho/failecho](https://github.com/FailEcho/failecho)** · ⭐2 · 🔥 0.4★/天 · `Python`
   - 分类：AI Agent
-  - 用于多实例 Hermes 代理队列的零膨胀分布式矢量内存、硬件强制域防火墙和 NAT 遍历执行网格。
-- **[chetannada/Namaste-AI](https://github.com/chetannada/Namaste-AI)** · ⭐12 · 🔥 0.4★/天 · `TypeScript`
+  - 适用于人工智能代理和自主软件的实时跨代理故障和恢复智能。
+- **[inho-team/oh-my-teams](https://github.com/inho-team/oh-my-teams)** · ⭐1 · 🔥 0.3★/天 · `JavaScript`
   - 分类：AI Agent
-  - Namaste AI — 免费手写笔记和学习材料，涵盖 Namaste AI 课程中的 AI 概念。探索人工智能、神经网络、深度学习、变形金刚、法学硕士、即时工程、RAG、人工智能代理等的历史。 Chetan Nada 的开源学习资源。
-- **[syarihu/agent-adjutant](https://github.com/syarihu/agent-adjutant)** · ⭐2 · 🔥 0.3★/天 · `Rust`
+  - PM/PL/Senior/Junior/Worker 에א전트 조직을 Orca 위에서 실행하는 Claude Code·Codex 플러그인
+- **[deathemperor/infinitus](https://github.com/deathemperor/infinitus)** · ⭐5 · 🔥 0.3★/天 · `TypeScript`
   - 分类：AI Agent
-  - 编码代理的任务中心，作为一个二进制文件
+  - 每个克劳德帐户都在一个菜单栏中 - 在停止之前交换。用于 claude-swap 引擎的本机 macOS 应用程序。
 - **[kpenfound/busybees](https://github.com/kpenfound/busybees)** · ⭐4 · 🔥 0.2★/天 · `Go`
   - 分类：AI Agent
   - 由 GitHub 问题、标签和拉取请求驱动的 Claude Code 会话软件工厂
-- **[djlex83/zoetron](https://github.com/djlex83/zoetron)** · ⭐4 · 🔥 0.2★/天 · `TypeScript`
-  - 分类：Autonomous Agent
-  - 🫀 一个自主代理有机体：在自由模型上每 40 分钟自我感知、记忆、计划、行动和评分。 21个器官。一个针对缺失器官的研究有机体，而不是 ASI 蓝图。公共日志；来源保密。
-- **[Robinsonson/expense-review-workflow](https://github.com/Robinsonson/expense-review-workflow)** · ⭐1 · 🔥 0.2★/天 · `Python`
-  - 分类：Autonomous Agent
-  - 无公开描述
 
 ## 📡 今日新进雷达（昨天还没出现的项目）
 
-- **[CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)** · ⭐51,771 · 📈 首次记录 · `TypeScript`
+- **[hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)** · ⭐54,070 · 📈 首次记录 · `Python`
   - 分类：Autonomous Agent
-  - AI 生产力工作室，配备智能聊天、自主代理和 300 多名助手。统一获取前沿法学硕士
-- **[zhayujie/CowAgent](https://github.com/zhayujie/CowAgent)** · ⭐46,961 · 📈 首次记录 · `Python`
-  - 分类：AI Agent
-  - 开源超级AI助手和Agent Harness。计划任务，运行工具和技能，利用记忆和知识进行自我进化。多代理、多模式、多渠道。轻量级、可扩展、单行安装。 （原微信上的chatgpt）
-- **[deepset-ai/haystack](https://github.com/deepset-ai/haystack)** · ⭐26,504 · 📈 首次记录 · `Python`
-  - 分类：AI Agent
-  - 开源 AI 编排框架，用于构建上下文工程、生产就绪的 LLM 应用程序。通过对检索、路由、内存和生成的显式控制来设计模块化管道和代理工作流程。专为可扩展代理、RAG、多模式应用程序、语义搜索和对话系统而构建。
-- **[activepieces/activepieces](https://github.com/activepieces/activepieces)** · ⭐24,430 · 📈 首次记录 · `TypeScript`
-  - 分类：AI Agent
-  - AI 代理和 MCP 及 AI 工作流程自动化 •（约 400 个用于 AI 代理的 MCP 服务器） • AI 自动化/带 MCP 的 AI 代理 • AI 工作流程和 AI 代理 • 用于 AI 代理的 MCP
-- **[apache/pulsar](https://github.com/apache/pulsar)** · ⭐15,330 · 📈 首次记录 · `Java`
+  - 为最出色的特工 Claude Code 精心挑选的最优质资源，Claude Code 是无可争议的编码伴侣冠军，来自 Anthropic PBC 势不可挡的团队。顶级技能、灵巧的代理、闪烁的状态栏、一流的开发人员工具的令人愉快的展示，而且我们还有插件
+- **[NirDiamant/RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques)** · ⭐29,486 · 📈 首次记录 · `Jupyter Notebook`
   - 分类：Autonomous Agent
-  - Apache Pulsar - 分布式发布-订阅消息系统
-- **[polarsource/polar](https://github.com/polarsource/polar)** · ⭐10,258 · 📈 首次记录 · `Python`
+  - 该存储库展示了检索增强生成（RAG）系统的各种先进技术。每种技术都有详细的笔记本教程。
+- **[titanwings/distilly](https://github.com/titanwings/distilly)** · ⭐24,742 · 📈 首次记录 · `Python`
+  - 分类：AI Agent
+  - Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）.
+- **[NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents)** · ⭐24,285 · 📈 首次记录 · `Jupyter Notebook`
+  - 分类：AI Agent
+  - 50 多个生成式 AI 代理技术的教程和实现，从基本的对话机器人到复杂的多代理系统。
+- **[NirDiamant/agents-towards-production](https://github.com/NirDiamant/agents-towards-production)** · ⭐21,457 · 📈 首次记录 · `Jupyter Notebook`
+  - 分类：AI Agent
+  - 用于构建生产级 GenAI 代理的端到端、代码优先教程。从原型到企业部署。
+- **[open-jarvis/OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** · ⭐9,750 · 📈 首次记录 · `Python`
   - 分类：Autonomous Agent
-  - Polar——智能时代的计费平台
-- **[omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent)** · ⭐9,914 · 📈 首次记录 · `Python`
+  - 个人设备上的个人人工智能
+- **[kunchenguid/firstmate](https://github.com/kunchenguid/firstmate)** · ⭐5,989 · 📈 首次记录 · `Shell`
+  - 分类：Autonomous Agent
+  - 与一位代理人交谈。与船员一起航行。
+- **[NirDiamant/Controllable-RAG-Agent](https://github.com/NirDiamant/Controllable-RAG-Agent)** · ⭐1,625 · 📈 首次记录 · `Jupyter Notebook`
+  - 分类：Autonomous Agent
+  - 该存储库为复杂问题解答提供了先进的检索增强生成（RAG）解决方案。它使用复杂的基于图形的算法来处理任务。
+- **[Human-Agent-Society/reef](https://github.com/Human-Agent-Society/reef)** · ⭐1,560 · 📈 首次记录 · `Python`
   - 分类：AI Agent
-  - Omnigent 是一个开源 AI 代理框架和元工具：编排 Claude Code、Codex、Cursor、Pi 和自定义代理 — 无需重写即可交换工具，执行策略和沙箱，并通过任何设备实时协作。
-- **[huangruiteng/loopx](https://github.com/huangruiteng/loopx)** · ⭐5,838 · 📈 首次记录 · `Python`
-  - 分类：AI Agent
-  - 长视野代理控制平面，可跨 Codex、Claude Code 和其他工具进行持久、受监管的工作。
-- **[peters/horizon](https://github.com/peters/horizon)** · ⭐706 · 📈 首次记录 · `Rust`
-  - 分类：AI Agent
-  - GPU 加速终端板可将您的所有会话置于无限画布上
-- **[bex-co/bex](https://github.com/bex-co/bex)** · ⭐561 · 📈 首次记录 · `Go`
-  - 分类：AI Agent
-  - 开源渲染替代方案——AI 原生。 Git推送→构建→部署在自己的基础设施上；代理商是一流的用户。
+  - 自我完善代理的持续学习基础设施
+- **[mrwadams/stride-gpt](https://github.com/mrwadams/stride-gpt)** · ⭐1,121 · 📈 首次记录 · `Python`
+  - 分类：Autonomous Agent
+  - 一种由 AI 驱动的威胁建模工具，利用 OpenAI 的 GPT 模型根据 STRIDE 方法为给定应用程序生成威胁模型。
 
 ---
-*生成时间：2026-09-14 14:38（Asia/Shanghai）*
+*生成时间：2026-09-15 14:21（Asia/Shanghai）*
