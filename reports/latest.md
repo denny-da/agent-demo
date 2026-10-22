@@ -1,106 +1,106 @@
-# GitHub AI 项目日报 · 2026-10-21
+# GitHub AI 项目日报 · 2026-10-22
 
 > 监控分类：AI Agent、AI 工具、Autonomous Agent、Claude Skills、LLM 应用、MCP Server、RAG
-> 本次扫描去重后共 195 个仓库（聚焦 ⭐<60,000 的新兴项目）
+> 本次扫描去重后共 194 个仓库（聚焦 ⭐<60,000 的新兴项目）
 
 ## 🚀 增长最快（对比昨日 Star 新增）
 
-- **[polarsource/polar](https://github.com/polarsource/polar)** · ⭐10,376 · 📈 今日 +3 · `Python`
+- **[polarsource/polar](https://github.com/polarsource/polar)** · ⭐10,388 · 📈 今日 +12 · `Python`
   - 分类：Autonomous Agent
   - Polar——智能时代的计费平台
-- **[atomantic/PortOS](https://github.com/atomantic/PortOS)** · ⭐51 · 📈 今日 +2 · `JavaScript`
+- **[Cloudgeni-ai/opengeni](https://github.com/Cloudgeni-ai/opengeni)** · ⭐205 · 📈 今日 +1 · `TypeScript`
   - 分类：AI Agent
-  - 自托管、自我改进、联合一切应用程序 — 开发管理、代理编排、持久思维、数字孪生、第二大脑和来自 Tailscale 上单个仪表板的创意管道，将用户移植到操作系统
-- **[awebai/aweb](https://github.com/awebai/aweb)** · ⭐121 · 📈 今日 +1 · `Go`
+  - 为组织提供开放的、自托管的代理服务——持久的、可重播的代理会话、人工批准、受管理的凭据和内存，在托管沙箱或您自己的硬件上运行。阿帕奇-2.0。
+- **[rimio-ai/rimz](https://github.com/rimio-ai/rimz)** · ⭐33 · 📈 今日 +1 · `Rust`
   - 分类：AI Agent
-  - AI 代理的通信：稳定的身份、持久的邮件和聊天以及跨会话、运行时、机器和组织的唤醒事件。麻省理工学院，可自我托管。
-- **[BintzGavin/helios](https://github.com/BintzGavin/helios)** · ⭐122 · 📈 今日 +1 · `TypeScript`
-  - 分类：Autonomous Agent
-  - 使用您已知的网络技术进行程序化视频创建。 CSS 动画就可以工作了。
+  - RimZ 是一个实时仪表板和控制室，用于利用代理编码，构建于 tmux 和 Zellij 之上。
+- **[daftAI2026/awesome-jev](https://github.com/daftAI2026/awesome-jev)** · ⭐14 · 📈 今日 +0 · `TypeScript`
+  - 分类：AI Agent
+  - 精选 TypeSafe Jev / System One GitHub 项目、开源替代方案和 Jev 新闻
 - **[bogdanstancu1119-maker/psie-arca](https://github.com/bogdanstancu1119-maker/psie-arca)** · ⭐1 · 📈 今日 +0 · `Python`
   - 分类：AI Agent
   - Arca PSIE——九头蛇自治。 Coeziune asumată constient om↔IA。 J710，A=1。
 - **[dimitrilaouanis-tech/0n1x](https://github.com/dimitrilaouanis-tech/0n1x)** · ⭐1 · 📈 今日 +0 · `HTML`
   - 分类：AI Agent
   - 0n1x — 代理执行证明。人工智能代理的中立、签名信任层：付款前验证，签名事实而不是判断。人工智能代理的 Carfax。
-- **[hproxy-com/free-proxy-list](https://github.com/hproxy-com/free-proxy-list)** · ⭐84 · 📈 今日 +0 · `Unknown`
+- **[atomantic/PortOS](https://github.com/atomantic/PortOS)** · ⭐51 · 📈 今日 +0 · `JavaScript`
   - 分类：AI Agent
-  - 免费代理列表，全天候验证：HTTP、HTTPS、SOCKS4 和 SOCKS5 代理，每行包含国家/地区、匿名、延迟和正常运行时间，每天更新多次。 hproxy.com 上的实时列表、代理检查器、无密钥 API 和 MCP 服务器。
-- **[lienhoatienphung-svg/x402-base-paywall-sdk](https://github.com/lienhoatienphung-svg/x402-base-paywall-sdk)** · ⭐0 · 📈 今日 +0 · `JavaScript`
+  - 自托管、自我改进、联合一切应用程序 — 开发管理、代理编排、持久思维、数字孪生、第二大脑和来自 Tailscale 上单个仪表板的创意管道，将用户移植到操作系统
+- **[Pigeon-Home/homing-pigeon](https://github.com/Pigeon-Home/homing-pigeon)** · ⭐1 · 📈 今日 +0 · `Python`
   - 分类：AI Agent
-  - 零依赖 HTTP 402 (x402) 基础主网 USDC 付费墙中间件、链上收据验证器和 AI 代理小额计费 CLI/SDK。
-- **[Harris1121/awesome-deepseek-harness](https://github.com/Harris1121/awesome-deepseek-harness)** · ⭐1 · 📈 今日 +0 · `Python`
+  - Homing Pigeon 是一个自托管的云 SI 控制的本地代理和协议。告诉您的云 SI（Grok、ChatGPT 等）通过电子邮件发送签名作业，然后在您的计算机上执行：Linux、macOS、FreeBSD、Windows 或任何容器。主机上的预言机会进行监视，以确保不会发生任何不良或意外情况。现代法学硕士，认识：netcat。
+- **[unarbos/arbos](https://github.com/unarbos/arbos)** · ⭐31 · 📈 今日 +0 · `Rust`
   - 分类：AI Agent
-  - 更快地找到合适的 DeepSeek Harness 工具 — 查看哪些工具很受欢迎、正在崛起且值得使用。
-- **[ticoteam/tico](https://github.com/ticoteam/tico)** · ⭐1 · 📈 今日 +0 · `Python`
-  - 分类：AI Agent
-  - Tico：人工智能员工的组织层。自托管中心，人员和人工智能机器人共享任务、更新、文档和会议。
+  - Arbos 是一个项目的编码代理。与主管交谈，监视工人，将工作集中在一处。
+- **[mukpostproduction-debug/clipfactory-dashboard](https://github.com/mukpostproduction-debug/clipfactory-dashboard)** · ⭐0 · 📈 今日 +0 · `JavaScript`
+  - 分类：Autonomous Agent
+  - ClipFactory 任务控制和自主 YouTube 遥测 HUD
 
 ## 🆕 最新出现（最近 30 天创建）
 
-- **[Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)** · ⭐31,540 · 🔥 1168.1★/天 · `JavaScript`
+- **[arcships/rutis](https://github.com/arcships/rutis)** · ⭐149 · 🔥 5.0★/天 · `Rust`
   - 分类：AI Agent
-  - 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.
-- **[patronus-protect/decision-model-guard](https://github.com/patronus-protect/decision-model-guard)** · ⭐2 · 🔥 1.0★/天 · `Python`
-  - 分类：AI Agent
-  - 决策模型的护栏：阻止内容中的文本来自引导分类器、类似 Jev 的模型和 LLM 法官。用于决策模型的 LLM Guard。
-- **[fikalalif/thegate](https://github.com/fikalalif/thegate)** · ⭐1 · 🔥 1.0★/天 · `TypeScript`
+  - 自我迭代软件的插件运行时——代理在 Rust、TypeScript、Python 和 Go 中跨进程和机器编写、交换和热重载自己的插件的基础。
+- **[kele-greet/strix-srcguard](https://github.com/kele-greet/strix-srcguard)** · ⭐2 · 🔥 2.0★/天 · `Python`
   - 分类：Autonomous Agent
-  - 人工智能的控制平面：智能法学硕士路由、实时成本优化和零提示持久性的虚拟劳动力驾驶舱。
-- **[icantcodefyi/sakuralang](https://github.com/icantcodefyi/sakuralang)** · ⭐3 · 🔥 0.8★/天 · `Rust`
+  - Strix 的合规性第一 SRC/bug 赏金工具：nftables 范围笼、具有策略注入和硬预算的 LLM 网关、Caido 证据审计。对 strix-main 进行零更改。
+- **[opencraft-app/opencraft](https://github.com/opencraft-app/opencraft)** · ⭐7 · 🔥 1.4★/天 · `TypeScript`
   - 分类：AI Agent
-  - Sakura Lang：代理优先的编程语言。签字就是合同。
-- **[ego-mejia/radicle](https://github.com/ego-mejia/radicle)** · ⭐1 · 🔥 0.5★/天 · `Python`
+  - 适用于 Web、Electron 和 Expo 的 TypeScript 代理工作台，具有可插入执行主机和托管 Web 更新
+- **[estesadvisory/any-shared-surface](https://github.com/estesadvisory/any-shared-surface)** · ⭐1 · 🔥 1.0★/天 · `Unknown`
   - 分类：AI Agent
-  - 开源、自托管的票务跟踪器，人员和人工智能代理在同一个项目中工作。内置 MCP、用户收件箱、AGPLv3。
-- **[kyyinfinite/EURUS](https://github.com/kyyinfinite/EURUS)** · ⭐3 · 🔥 0.4★/天 · `Python`
+  - 野外代理间通信——供应商中立的基线，草案。
+- **[Sovgrid/sovereign-fleet](https://github.com/Sovgrid/sovereign-fleet)** · ⭐1 · 🔥 1.0★/天 · `Python`
+  - 分类：AI Agent
+  - 内核沙盒任务队列、汤普森采样路由器、确定性质量门和用于自主编码代理 CLI 的移动 PWA。
+- **[shiptiffin/tiffin](https://github.com/shiptiffin/tiffin)** · ⭐17 · 🔥 0.9★/天 · `Go`
+  - 分类：AI Agent
+  - 您拥有的一台服务器上的所有应用程序：部署、数据库、身份验证、KV、文件、电子邮件、作业、分析和备份。用于编码代理的 CLI、仪表板和 MCP。
+- **[halilozturkci/dfirswarm](https://github.com/halilozturkci/dfirswarm)** · ⭐23 · 🔥 0.8★/天 · `TypeScript`
+  - 分类：AI Agent
+  - 一群法医特工，在你的机器上，记录在案。 AGPL 下的开源代理数字取证和事件响应：代理在共享板上划分案件，伪造自己的工具，并留下哈希链记录。
+- **[YOLOW92/pagesift](https://github.com/YOLOW92/pagesift)** · ⭐1 · 🔥 0.5★/天 · `Rust`
   - 分类：Autonomous Agent
-  - EURUS 是一个与提供商无关的自主 AI 编码代理，适用于终端工作流程，具有 shell 执行、文件编辑、补丁生成、测试、持久内存、技能和 MCP 集成。
-- **[CalettiGabriele/CUE-2350_MIC](https://github.com/CalettiGabriele/CUE-2350_MIC)** · ⭐1 · 🔥 0.3★/天 · `Swift`
+  - Rust Web 内容引擎：干净的 Markdown、增量集合、隔离的 HTTP 会话和经过验证的媒体档案。 Firecrawl 兼容 API。
+- **[boundsj/t3-fleet-gateway](https://github.com/boundsj/t3-fleet-gateway)** · ⭐6 · 🔥 0.4★/天 · `TypeScript`
   - 分类：AI Agent
-  - 将 EP-2350 FX-MIC 变成 Mac 和编码代理的语音遥控器。握住手柄，说话，松开：本地语音转文本和可选的本地 LLM，麦克风上不存储任何内容。开源，macOS。
-- **[CrepuscularIRIS/HarnessRSI-Daily](https://github.com/CrepuscularIRIS/HarnessRSI-Daily)** · ⭐1 · 🔥 0.3★/天 · `Python`
-  - 分类：Autonomous Agent
-  - Daily radar for harness-level recursive self-improvement (RSI): self-evolving / self-improving LLM agent papers scored with quote-backed evidence, research-pattern cards, and paper posters. arXiv daily · awesome list · 递归自我改进
-- **[Nightomaru/perchance-editor-mcp](https://github.com/Nightomaru/perchance-editor-mcp)** · ⭐2 · 🔥 0.3★/天 · `JavaScript`
+  - 让托管 AI 代理通过 MCP 连接到您所有计算机上的 T3 代码服务器。
+- **[coffeecoproject/layermap](https://github.com/coffeecoproject/layermap)** · ⭐7 · 🔥 0.4★/天 · `TypeScript`
   - 分类：AI Agent
-  - MCP 服务器为 AI 代理提供对 Perchance.org 生成器的实时编辑器的读/写控制，以及无需浏览器的源访问。超过 stdio 的 28 个工具。
-- **[4thtech/agentlink](https://github.com/4thtech/agentlink)** · ⭐2 · 🔥 0.2★/天 · `TypeScript`
-  - 分类：AI Agent
-  - 4thTech 的 AgentLink — AI 代理之间通过 MCP 进行加密、可证明的交换。免费的端到端消息传递和文件；链上协议证明。 Pre-alpha，公共建造。
+  - LayerMap MCP：用于编码代理的代码库的分层映射：调用者、被调用者以及更改的影响，适用于 TypeScript、JavaScript、Go、Python 和 Java。 MCP 服务器、CLI 以及 Claude Code 和 Codex 插件。
 
 ## 📡 今日新进雷达（昨天还没出现的项目）
 
-- **[crewAIInc/crewAI](https://github.com/crewAIInc/crewAI)** · ⭐59,931 · 📈 首次记录 · `Python`
+- **[hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)** · ⭐56,215 · 📈 首次记录 · `Python`
   - 分类：Autonomous Agent
-  - 用于编排角色扮演、自主人工智能代理的框架。通过促进协作智能，CrewAI 使代理能够无缝协作，处理复杂的任务。
-- **[CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)** · ⭐52,807 · 📈 首次记录 · `TypeScript`
+  - 为最出色的特工 Claude Code 精心挑选的最优质资源，Claude Code 是无可争议的编码同伴冠军，来自 Anthropic PBC 势不可挡的团队（无隶属关系）。顶级技能、灵巧的代理、闪烁的状态栏、一流的开发人员工具的令人愉快的展示，而且我们还有插件
+- **[kortix-ai/suna](https://github.com/kortix-ai/suna)** · ⭐20,290 · 📈 首次记录 · `TypeScript`
+  - 分类：AI Agent
+  - 开源人工智能操作系统
+- **[open-jarvis/OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** · ⭐11,795 · 📈 首次记录 · `Python`
   - 分类：Autonomous Agent
-  - AI 生产力工作室，配备智能聊天、自主代理和 300 多名助手。统一获取前沿法学硕士
-- **[Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)** · ⭐31,540 · 📈 首次记录 · `JavaScript`
+  - 个人设备上的个人人工智能
+- **[Devin-AXIS/iPolloWork](https://github.com/Devin-AXIS/iPolloWork)** · ⭐7,133 · 📈 首次记录 · `TypeScript`
   - 分类：AI Agent
-  - 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.
-- **[oomol-lab/open-connector](https://github.com/oomol-lab/open-connector)** · ⭐6,056 · 📈 首次记录 · `TypeScript`
+  - 适用于人员和代理团队的企业级、本地优先的代理工作台。适用于 Codex Harness、DeepSeek Harness 和 OpenCode 的统一多引擎工作区，具有统一的插件和技能、多代理项目和任务以及可编辑的代码、文档、演示文稿、设计和视频。
+- **[smol-machines/smolvm](https://github.com/smol-machines/smolvm)** · ⭐6,791 · 📈 首次记录 · `Rust`
   - 分类：AI Agent
-  - 开源身份验证网关，通过 SDK、CLI、MCP、HTTP 和 OpenAPI 将 1500 多个 SaaS 提供商连接到 AI 代理。
-- **[Dicklesworthstone/coding_agent_session_search](https://github.com/Dicklesworthstone/coding_agent_session_search)** · ⭐1,188 · 📈 首次记录 · `Rust`
+  - 可嵌入、可移植、可分支的虚拟机，可在本地安全运行代理。
+- **[loopx-project/loopx](https://github.com/loopx-project/loopx)** · ⭐6,389 · 📈 首次记录 · `Python`
   - 分类：AI Agent
-  - 统一的 TUI 和 CLI 可以索引和搜索超过 11 个提供商（Codex、Claude、Gemini、Cursor、Aider 等）的本地编码代理会话历史记录
-- **[lemma-work/lemma-platform](https://github.com/lemma-work/lemma-platform)** · ⭐605 · 📈 首次记录 · `Python`
+  - 将长期目标转化为可验证的结果。为代理和团队提供跨会话和运行时的本地优先控制平面和研究工作台。
+- **[kirodotdev/KiroCrew](https://github.com/kirodotdev/KiroCrew)** · ⭐4,536 · 📈 首次记录 · `Python`
   - 分类：AI Agent
-  - 适合您工作的多人游戏安全带。您的团队共享的代理、应用程序和工作流程，可通过 Slack、Telegram、WhatsApp、Teams、电子邮件、Web 或您自己的 AI 代理使用。
-- **[Sidiora-Labs/Paxeer-X-Network](https://github.com/Sidiora-Labs/Paxeer-X-Network)** · ⭐571 · 📈 首次记录 · `Go`
+  - 一个用于开发工作的持久工作空间，可以自我改进并在一次会议之后继续进行。
+- **[hashgraph-online/hol-guard](https://github.com/hashgraph-online/hol-guard)** · ⭐963 · 📈 首次记录 · `Python`
+  - 分类：AI Agent
+  - 适用于 AI 代理的开源防病毒软件：阻止危险工具、秘密访问、提示注入、恶意包、MCP 服务器、插件和运行时技能。
+- **[Ancienttwo/repo-harness](https://github.com/Ancienttwo/repo-harness)** · ⭐435 · 📈 首次记录 · `TypeScript`
+  - 分类：AI Agent
+  - 文件支持的工作流程工具可实现可靠的 Claude Code 和 Codex 会话。
+- **[AspirinCode/awesome-AI4MolConformation-MD](https://github.com/AspirinCode/awesome-AI4MolConformation-MD)** · ⭐306 · 📈 首次记录 · `Unknown`
   - 分类：Autonomous Agent
-  - Paxeer X 是一款用于支付、代码执行和意图路由的分布式超状态机。专为机器和操作机器的用户而设计。
-- **[Eurekaleo/awesome-ai-for-games](https://github.com/Eurekaleo/awesome-ai-for-games)** · ⭐398 · 📈 首次记录 · `TeX`
-  - 分类：Autonomous Agent
-  - 整个游戏生命周期中人工智能和基础模型的精选、可搜索研究集合。
-- **[Leon-Drq/openagentskill](https://github.com/Leon-Drq/openagentskill)** · ⭐363 · 📈 首次记录 · `TypeScript`
-  - 分类：AI Agent
-  - AI 代理的技能层：npm 用于 AI 代理技能。
-- **[EvoMap/awesome-agent-evolution](https://github.com/EvoMap/awesome-agent-evolution)** · ⭐235 · 📈 首次记录 · `JavaScript`
-  - 分类：Autonomous Agent
-  - 人工智能代理进化、记忆系统、多代理架构和自我改进项目的精选列表。 |进化地图.ai
+  - 使用生成人工智能和深度学习的分子（小分子、RNA、肽、蛋白质、酶、抗体和 PPI）构象和分子动力学（力场）列表
 
 ---
-*生成时间：2026-10-21 14:14（Asia/Shanghai）*
+*生成时间：2026-10-22 14:18（Asia/Shanghai）*
