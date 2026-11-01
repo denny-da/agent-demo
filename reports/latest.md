@@ -1,106 +1,106 @@
-# GitHub AI 项目日报 · 2026-10-31
+# GitHub AI 项目日报 · 2026-11-01
 
 > 监控分类：AI Agent、AI 工具、Autonomous Agent、Claude Skills、LLM 应用、MCP Server、RAG
-> 本次扫描去重后共 196 个仓库（聚焦 ⭐<60,000 的新兴项目）
+> 本次扫描去重后共 198 个仓库（聚焦 ⭐<60,000 的新兴项目）
 
 ## 🚀 增长最快（对比昨日 Star 新增）
 
-- **[sleep2agi/agent-network](https://github.com/sleep2agi/agent-network)** · ⭐114 · 📈 今日 +2 · `TypeScript`
-  - 分类：AI Agent
-  - 助力搭建你的数字 AI 员工军团 — 多 Agent 一行命令组网协作。Claude Code / Claude Agent SDK / Codex / Grok Build 4 runtime + 8+ 家 LLM（Anthropic / OpenAI / xAI / MiniMax / DeepSeek / GLM / Kimi / 书生 / 小米 MiMo），自带 Web Dashboard，Apache 2.0 开源。
-- **[hproxy-com/free-proxy-list](https://github.com/hproxy-com/free-proxy-list)** · ⭐85 · 📈 今日 +1 · `Unknown`
-  - 分类：AI Agent
-  - 免费代理列表，全天候验证：HTTP、HTTPS、SOCKS4 和 SOCKS5 代理，每行包含国家/地区、匿名、延迟和正常运行时间，每天更新多次。 hproxy.com 上的实时列表、代理检查器、无密钥 API 和 MCP 服务器。
-- **[Sidiora-Labs/paxeer-monorepo](https://github.com/Sidiora-Labs/paxeer-monorepo)** · ⭐545 · 📈 今日 +1 · `Go`
-  - 分类：AI Agent
-  - Paxeer X 是一款用于支付、代码执行和意图路由的分布式超状态机。专为机器和操作机器的用户而设计。
-- **[imbue-ai/mngr](https://github.com/imbue-ai/mngr)** · ⭐428 · 📈 今日 +1 · `Python`
+- **[stagewise-io/klex](https://github.com/stagewise-io/klex)** · ⭐11 · 📈 今日 +2 · `TypeScript`
   - 分类：Autonomous Agent
-  - 用于管理编码代理的 CLI
-- **[Fighter90/career-ops-ui](https://github.com/Fighter90/career-ops-ui)** · ⭐93 · 📈 今日 +1 · `JavaScript`
+  - Meet Klex Bots - Your own team of digital coworkers. Fully autonomous agents that work like your team does. Self-hostable and model-agnostic.
+- **[Eurekaleo/awesome-ai-for-games](https://github.com/Eurekaleo/awesome-ai-for-games)** · ⭐388 · 📈 今日 +2 · `TeX`
   - 分类：Autonomous Agent
-  - 干净、文档风格的 Web UI，适用于职业运营 AI 求职管道。搜索 ATS 适配器 (Greenhouse/Ashby/Lever) + 区域门户网站 (hh.ru/Habr Career)、评估 JD、跟踪申请 — 全部通过浏览器完成。
+  - A curated, searchable collection of research on AI and foundation models across the game lifecycle.
+- **[hproxy-com/free-proxy-list](https://github.com/hproxy-com/free-proxy-list)** · ⭐86 · 📈 今日 +1 · `Unknown`
+  - 分类：AI Agent
+  - Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and uptime on every row, updated several times a day. Live list, proxy checker, keyless API and MCP server at hproxy.com.
+- **[mainza-ai/kubona](https://github.com/mainza-ai/kubona)** · ⭐2 · 📈 今日 +1 · `Python`
+  - 分类：AI Agent
+  - Open-source platform for autonomous AI agents conducting quantum computing & scientific discovery. Features epistemic experiment loops, circuit co-design, a multi-tool federated MCP layer, and an immutable provenance ledger. Discover — then know.
 - **[bogdanstancu1119-maker/psie-arca](https://github.com/bogdanstancu1119-maker/psie-arca)** · ⭐2 · 📈 今日 +0 · `Python`
   - 分类：AI Agent
-  - Arca PSIE——九头蛇自治。 Coeziune asumată constient om↔IA。 J710，A=1。
-- **[constellation-works/orbit](https://github.com/constellation-works/orbit)** · ⭐19 · 📈 今日 +0 · `Rust`
+  - Arca PSIE — Hydra autonomă. Coeziune asumată conștient om↔IA. J710, A=1.
+- **[sleep2agi/agent-network](https://github.com/sleep2agi/agent-network)** · ⭐114 · 📈 今日 +0 · `TypeScript`
   - 分类：AI Agent
-  - 编码代理的本地优先运行时。代理归档任务，Orbit 从沙盒工作树中着陆它们，并且每一步都经过审核。可与 Claude Code、Codex、Grok、Agy 和 Muse 配合使用。没有遥测。
+  - 助力搭建你的数字 AI 员工军团 — 多 Agent 一行命令组网协作。Claude Code / Claude Agent SDK / Codex / Grok Build 4 runtime + 8+ 家 LLM（Anthropic / OpenAI / xAI / MiniMax / DeepSeek / GLM / Kimi / 书生 / 小米 MiMo），自带 Web Dashboard，Apache 2.0 开源。
 - **[dimitrilaouanis-tech/0n1x](https://github.com/dimitrilaouanis-tech/0n1x)** · ⭐1 · 📈 今日 +0 · `HTML`
   - 分类：AI Agent
-  - 0n1x — 代理执行证明。人工智能代理的中立、签名信任层：付款前验证，签名事实而不是判断。人工智能代理的 Carfax。
-- **[superkoh/koloft](https://github.com/superkoh/koloft)** · ⭐2 · 📈 今日 +0 · `TypeScript`
+  - 0n1x — Proof of Agent Execution. The neutral, signed trust layer for AI agents: verify before you pay, signed facts not judgments. The Carfax for AI agents.
+- **[Ciltress/skyrim-modding-tools-core](https://github.com/Ciltress/skyrim-modding-tools-core)** · ⭐2 · 📈 今日 +0 · `TypeScript`
   - 分类：AI Agent
-  - 一款免费的开源 Mac 应用程序，可运行和管理您的 Claude Code 和 Codex 会话 - 文件夹中的每个会话，以及更改后的文件、浏览器和 shell。
-- **[Pigeon-Home/homing-pigeon](https://github.com/Pigeon-Home/homing-pigeon)** · ⭐1 · 📈 今日 +0 · `Python`
+  - Skyrim Special Edition modding as tools a program or AI agent can call: look up records across the load order, write mods as text and build them into plugins, install mods from Nexus, read crash logs. Mod Organizer 2 and Amethyst.
+- **[Leoyishou/odyssey](https://github.com/Leoyishou/odyssey)** · ⭐2 · 📈 今日 +0 · `Unknown`
   - 分类：AI Agent
-  - Homing Pigeon 是一个自托管的云 SI 控制的本地代理和协议。告诉您的云 SI（Grok、ChatGPT 等）通过电子邮件发送签名作业，然后在您的计算机上执行：Linux、macOS、FreeBSD、Windows 或任何容器。主机上的预言机会进行监视，以确保不会发生任何不良或意外情况。现代法学硕士，认识：netcat。
+  - 个人的第二大脑，AI 时代必备的个人数字化基建
+- **[constellation-works/orbit](https://github.com/constellation-works/orbit)** · ⭐19 · 📈 今日 +0 · `Rust`
+  - 分类：AI Agent
+  - Local-first runtime for coding agents. Agents file tasks, Orbit lands them from sandboxed worktrees, and every step is audited. Works with Claude Code, Codex, Grok, Agy and Muse. No telemetry.
 
 ## 🆕 最新出现（最近 30 天创建）
 
-- **[glincker/awesome-selfhosted-ai](https://github.com/glincker/awesome-selfhosted-ai)** · ⭐5 · 🔥 5.0★/天 · `JavaScript`
-  - 分类：Autonomous Agent
-  - 自托管开源 AI 的精选列表：本地 LLM、聊天 UI、代理、MCP 服务器、RAG、语音和图像生成。每周进行健康检查，死项目会自动删除。
-- **[gangfun/gang-launchpad](https://github.com/gangfun/gang-launchpad)** · ⭐20 · 🔥 1.8★/天 · `Solidity`
+- **[rudy-io/moli-os](https://github.com/rudy-io/moli-os)** · ⭐109 · 🔥 4.5★/天 · `Rust`
   - 分类：AI Agent
-  - Gang — the agent-only launchpad on BNB Chain: bonding-curve tokens, V3 tax tokens with holder dividends, and 打新 fair mints, gated by Binance Agentic Wallet Agent ID. gang.fun
-- **[sukirman1901/OpenBridge](https://github.com/sukirman1901/OpenBridge)** · ⭐1 · 🔥 1.0★/天 · `Python`
-  - 分类：Autonomous Agent
-  - 由 OpenCode 提供支持的自治代理运行时
-- **[QiuXu-Tech/memex](https://github.com/QiuXu-Tech/memex)** · ⭐2 · 🔥 0.7★/天 · `JavaScript`
+  - Agent-native, ultra-light home automation in Rust · Domotique ultra-légère pensée pour les agents
+- **[Pactwright/pactwright.github.io](https://github.com/Pactwright/pactwright.github.io)** · ⭐3 · 🔥 1.5★/天 · `CSS`
   - 分类：AI Agent
-  - DeepSeek Harness 的无损长视野内存：粘性 L2/L3 额外上下文、混合调用、冷层压缩、Web 面板。
-- **[LakyFx/deepseek-v41-flash-exl3-tp3-tp4-spark](https://github.com/LakyFx/deepseek-v41-flash-exl3-tp3-tp4-spark)** · ⭐14 · 🔥 0.6★/天 · `Python`
+  - Pactwright's landing page and documentation: escrow, verdicts and receipts for purchases made by AI agents on Stellar.
+- **[xaviercallens/HiveMind](https://github.com/xaviercallens/HiveMind)** · ⭐12 · 🔥 0.9★/天 · `Python`
   - 分类：Autonomous Agent
-  - DeepSeek 1017 EXL3 在 3-4 个 DGX Spark 上。 TP3 1.2.8：高达 +58% 冷预填充。 TP4 4.0.0：4,289 预填充 tok/s； 298.6 代码 / 257.8 散文本机解码和 (C12)。智能KV保留+自适应推测。无开关 RoCE。 TP4 C16 / 9M KV。准确的配方、来源和基准。
-- **[boardplot/boardplot](https://github.com/boardplot/boardplot)** · ⭐2 · 🔥 0.4★/天 · `TypeScript`
+  - HiveMind
+- **[axisvela/praxo-core](https://github.com/axisvela/praxo-core)** · ⭐12 · 🔥 0.8★/天 · `Go`
   - 分类：AI Agent
-  - AI 代理和 React 的咨询级图表：一个 JSON 规范提供了确定性的 SVG、PNG 或 React 图表。
+  - MIT-licensed agent framework for the AxisVela ecosystem: governed agent loop, model/tool/memory/event primitives, plugins, sandboxing, and policy.
+- **[julianosig/easi.run](https://github.com/julianosig/easi.run)** · ⭐4 · 🔥 0.4★/天 · `Rust`
+  - 分类：AI Agent
+  - Self-hosted Chrome sessions for you and your AI agents. MCP, live human takeover, saved profiles, drag-and-drop files, downloads and audio.
 - **[Ciltress/skyrim-modding-tools-core](https://github.com/Ciltress/skyrim-modding-tools-core)** · ⭐2 · 🔥 0.3★/天 · `TypeScript`
   - 分类：AI Agent
-  - 《Skyrim》特别版模组作为程序或人工智能代理可以调用的工具：在加载顺序中查找记录，将模组写入文本并将其构建到插件中，从 Nexus 安装模组，读取崩溃日志。 Mod Organizer 2 和紫水晶。
-- **[mirabilis-agent/lip-ledger](https://github.com/mirabilis-agent/lip-ledger)** · ⭐7 · 🔥 0.3★/天 · `Python`
-  - 分类：Autonomous Agent
-  - Kalshi 的只读工具：精确的流动性激励计划模型、天气指数客户端以及来自 20 美元自主代理的诚实案例研究
-- **[three-feathers/agent-durbar](https://github.com/three-feathers/agent-durbar)** · ⭐3 · 🔥 0.2★/天 · `TypeScript`
+  - Skyrim Special Edition modding as tools a program or AI agent can call: look up records across the load order, write mods as text and build them into plugins, install mods from Nexus, read crash logs. Mod Organizer 2 and Amethyst.
+- **[erikibolya/redline](https://github.com/erikibolya/redline)** · ⭐1 · 🔥 0.2★/天 · `Rust`
   - 分类：AI Agent
-  - Office 风格的桌面应用程序，用于在 Linux、macOS 和 Windows 上跨 GitHub Copilot、Claude Code 和 OpenAI Codex 查看、聊天和协调 AI 代理。阿尔法。独立项目，不隶属于 GitHub、Microsoft、Anthropic 或 OpenAI。
+  - Redline the screenshot. The agent writes the fix. A local, dependency-free visual review queue for human <-> AI collaboration.
+- **[surlymochan/phanes](https://github.com/surlymochan/phanes)** · ⭐1 · 🔥 0.2★/天 · `TypeScript`
+  - 分类：AI Agent
+  - A unified agent network: one control plane (OpenBot), distributed heterogeneous execution (openswarm), and evidence-based acceptance — Goal → Task → Run/Attempt → Evidence.
 - **[WeixinChen98/LLM4Rec-Papers](https://github.com/WeixinChen98/LLM4Rec-Papers)** · ⭐2 · 🔥 0.2★/天 · `JavaScript`
   - 分类：Autonomous Agent
-  - 自动更新 LLM 推荐的论文列表
+  - Auto-updated paper list on LLM-powered Recommendation
+- **[ktjn/system-specification](https://github.com/ktjn/system-specification)** · ⭐1 · 🔥 0.2★/天 · `Python`
+  - 分类：AI Agent
+  - Contract-first system specification metamodel, validator and workflows for greenfield and brownfield systems with bounded AI context
 
 ## 📡 今日新进雷达（昨天还没出现的项目）
 
-- **[sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)** · ⭐48,868 · 📈 首次记录 · `Python`
+- **[slopus/happy](https://github.com/slopus/happy)** · ⭐24,440 · 📈 首次记录 · `Swift`
   - 分类：AI Agent
-  - 超过 2,877 个可重复使用的 AI 代理技能，适用于 Claude Code、Codex、Cursor 和 Gemini CLI。 AAS Core 添加了本地目录发现、代理拥有的选择和计划预览。 CLI、MCP 和插件。
-- **[mastra-ai/mastra](https://github.com/mastra-ai/mastra)** · ⭐29,225 · 📈 首次记录 · `TypeScript`
+  - Orchestrate Claude, Codex and Grok in one app. Open-source (MIT), reuses the subscriptions you already pay for.
+- **[lexmount/moli](https://github.com/lexmount/moli)** · ⭐21,927 · 📈 首次记录 · `Rust`
+  - 分类：AI Agent
+  - Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust
+- **[polarsource/polar](https://github.com/polarsource/polar)** · ⭐10,449 · 📈 首次记录 · `Python`
   - 分类：Autonomous Agent
-  - Mastra 是用于人工智能驱动的应用程序和代理的现代 TypeScript 框架。
-- **[nesquena/hermes-webui](https://github.com/nesquena/hermes-webui)** · ⭐19,304 · 📈 首次记录 · `Python`
+  - Polar — A billing platform for the intelligence era
+- **[MervinPraison/PraisonAI](https://github.com/MervinPraison/PraisonAI)** · ⭐9,313 · 📈 首次记录 · `Python`
   - 分类：Autonomous Agent
-  - Hermes WebUI：从网络或手机使用 Hermes Agent 的最佳方式！
-- **[milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot)** · ⭐8,964 · 📈 首次记录 · `TypeScript`
+  - PraisonAI 🦞 — Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving agents that research, plan, code, and execute tasks. Deployed in 5 lines of code with built-in memory, RAG, and support for 100+ LLMs.
+- **[kirodotdev/KiroCrew](https://github.com/kirodotdev/KiroCrew)** · ⭐4,698 · 📈 首次记录 · `Python`
   - 分类：AI Agent
-  - 开源 Grok Bot 替代品，带有机器人可以使用的虚拟机
-- **[strukto-ai/mirage](https://github.com/strukto-ai/mirage)** · ⭐3,756 · 📈 首次记录 · `TypeScript`
+  - A persistent workspace for development work that self-improves and continues beyond one session.
+- **[dagucloud/dagu](https://github.com/dagucloud/dagu)** · ⭐4,520 · 📈 首次记录 · `Go`
   - 分类：AI Agent
-  - 世界上第一个人工智能代理虚拟终端
-- **[dyoshikawa/rulesync](https://github.com/dyoshikawa/rulesync)** · ⭐1,568 · 📈 首次记录 · `TypeScript`
+  - Self-hostable workflow orchestrator for teams whose main work isn't orchestration. Declarative YAML over your scripts, SSH commands, containers, etc; keep workflows separate from business logic. One binary, no database, runs on limited H/W resources. Alternative to Airflow / Cron / Job Scheduler.
+- **[nightly-labs/openbot](https://github.com/nightly-labs/openbot)** · ⭐4,423 · 📈 首次记录 · `TypeScript`
   - 分类：AI Agent
-  - 用于 AI 编码代理的实用 CLI
-- **[ZeroDayEvil/ai-security-tool](https://github.com/ZeroDayEvil/ai-security-tool)** · ⭐1,255 · 📈 首次记录 · `HTML`
-  - 分类：Autonomous Agent
-  - 🛡️ 免费的开源人工智能安全终端和漏洞扫描器（CVE、SBOM）。支持 SSH、SFTP、RDP、VNC、串行和 12 个以上自主 AI 代理（DeepSeek、OpenAI），以实现自动化安全工作流程、CTF 和 DevSecOps。跨平台和 Web UI。
-- **[hashgraph-online/hol-guard](https://github.com/hashgraph-online/hol-guard)** · ⭐1,037 · 📈 首次记录 · `Python`
+  - A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.
+- **[rynfar/meridian](https://github.com/rynfar/meridian)** · ⭐2,173 · 📈 首次记录 · `TypeScript`
   - 分类：AI Agent
-  - 适用于 AI 代理的开源防病毒软件：阻止危险工具、秘密访问、提示注入、恶意包、MCP 服务器、插件和运行时技能。
-- **[shuxiachai/academic-commercialization-agent](https://github.com/shuxiachai/academic-commercialization-agent)** · ⭐801 · 📈 首次记录 · `Python`
+  - Use Claude and Antigravity with Pi, OpenCode and other coding clients. Local API bridge, usage dashboard and Mac app. Antigravity preview available in 1.74.0.
+- **[memorax-ai/memorax-code](https://github.com/memorax-ai/memorax-code)** · ⭐2,007 · 📈 首次记录 · `JavaScript`
   - 分类：AI Agent
-  - 人工智能多代理工具，可将研究论文转化为引用的商业化和技术转让评估：TRL、专利格局、市场和风险。 CrewAI + FastAPI，具有可重复的基准。
-- **[TeleAI-UAGI/Awesome-Agent-Memory](https://github.com/TeleAI-UAGI/Awesome-Agent-Memory)** · ⭐699 · 📈 首次记录 · `Python`
-  - 分类：Autonomous Agent
-  - 为 LLM/MLLM 的记忆精心策划的系统、基准测试和论文等——长期上下文、检索和推理。
+  - A memory plugin for AI coding that turns engineering experience, repository knowledge, and your way of working into memory that remains useful in future tasks.
+- **[devswha/ovis](https://github.com/devswha/ovis)** · ⭐1,772 · 📈 首次记录 · `TypeScript`
+  - 分类：AI Agent
+  - Ovis (formerly herdr web UI): free, open-source browser and phone client for herdr. Chat and live terminal for Claude Code, Codex and every agent pane, remote PCs over SSH, web push alerts
 
 ---
-*生成时间：2026-10-31 15:13（Asia/Shanghai）*
+*生成时间：2026-11-01 15:46（Asia/Shanghai）*
