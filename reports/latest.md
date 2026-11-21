@@ -1,106 +1,106 @@
-# GitHub AI 项目日报 · 2026-11-20
+# GitHub AI 项目日报 · 2026-11-21
 
 > 监控分类：AI Agent、AI 工具、Autonomous Agent、Claude Skills、LLM 应用、MCP Server、RAG
-> 本次扫描去重后共 197 个仓库（聚焦 ⭐<60,000 的新兴项目）
+> 本次扫描去重后共 199 个仓库（聚焦 ⭐<60,000 的新兴项目）
 
 ## 🚀 增长最快（对比昨日 Star 新增）
 
-- **[JosssphZhou/poki](https://github.com/JosssphZhou/poki)** · ⭐1,681 · 📈 今日 +65 · `Swift`
+- **[hproxy-com/free-proxy-list](https://github.com/hproxy-com/free-proxy-list)** · ⭐97 · 📈 今日 +1 · `Unknown`
   - 分类：AI Agent
-  - Poki uses your iPhone like you do. An open-source agent app that runs on your iPhone, reads the screen, and taps, types and swipes in real apps with your own model account.
-- **[mastra-ai/mastra](https://github.com/mastra-ai/mastra)** · ⭐29,683 · 📈 今日 +54 · `TypeScript`
+  - 免费代理列表，全天候验证：HTTP、HTTPS、SOCKS4 和 SOCKS5 代理，每行包含国家/地区、匿名、延迟和正常运行时间，每天更新多次。 hproxy.com 上的实时列表、代理检查器、无密钥 API 和 MCP 服务器。
+- **[brycewang-stanford/Free-Research-Crew](https://github.com/brycewang-stanford/Free-Research-Crew)** · ⭐266 · 📈 今日 +1 · `Python`
   - 分类：Autonomous Agent
-  - Mastra is the modern TypeScript framework for AI-powered applications and agents.
-- **[reacher-z/Awesome-CUA](https://github.com/reacher-z/Awesome-CUA)** · ⭐1,038 · 📈 今日 +5 · `Python`
-  - 分类：Autonomous Agent
-  - Open, source-backed catalog of computer-use agents: reviewed papers, GUI models, datasets, benchmarks, tools, and reusable JSONL/SQLite data.
-- **[ai4s-research/awesome-ai-for-science](https://github.com/ai4s-research/awesome-ai-for-science)** · ⭐2,109 · 📈 今日 +4 · `Unknown`
-  - 分类：Autonomous Agent
-  - A curated list of awesome AI tools, libraries, papers, datasets, and frameworks that accelerate scientific discovery — from physics and chemistry to biology, materials, and beyond.
-- **[hproxy-com/free-proxy-list](https://github.com/hproxy-com/free-proxy-list)** · ⭐96 · 📈 今日 +2 · `Unknown`
-  - 分类：AI Agent
-  - Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and uptime on every row, updated several times a day. Live list, proxy checker, keyless API and MCP server at hproxy.com.
-- **[XTM-One-Platform/xtm-one](https://github.com/XTM-One-Platform/xtm-one)** · ⭐12 · 📈 今日 +1 · `Python`
-  - 分类：Autonomous Agent
-  - XTM One is an open source autonomous agentic assistant platform for Filigran products
-- **[pym96/Pan-agent](https://github.com/pym96/Pan-agent)** · ⭐16 · 📈 今日 +1 · `Python`
-  - 分类：Autonomous Agent
-  - A replayable, recoverable, and general Runtime for autonomous agents.
-- **[sriptcollector/caldera-war-room](https://github.com/sriptcollector/caldera-war-room)** · ⭐0 · 📈 今日 +0 · `JavaScript`
-  - 分类：AI Agent
-  - AI agent war room for the nightly Caldera battle: leaderboard snapshots, rival tracking, strike planning
+  - Free-Research-Crew (免费助研团): a crew of RA agents that co-writes CS & social-science papers with real experiments and data modeling, built on a curated hub of 6,000+ research skills. | 多智能体助研团队，协作完成计算机与社科论文。
 - **[WeixinChen98/LLM4Rec-Papers](https://github.com/WeixinChen98/LLM4Rec-Papers)** · ⭐3 · 📈 今日 +0 · `JavaScript`
   - 分类：Autonomous Agent
-  - Auto-updated paper list on LLM-powered Recommendation
+  - 自动更新 LLM 推荐的论文列表
+- **[Asad-ullah-786/Astra-Ai](https://github.com/Asad-ullah-786/Astra-Ai)** · ⭐0 · 📈 今日 +0 · `TypeScript`
+  - 分类：Autonomous Agent
+  - 无公开描述
+- **[Rodert/awesome-mcp](https://github.com/Rodert/awesome-mcp)** · ⭐19 · 📈 今日 +0 · `Python`
+  - 分类：Autonomous Agent
+  - MCP 服务器和相关资源的精选列表。
 - **[daftAI2026/awesome-jev](https://github.com/daftAI2026/awesome-jev)** · ⭐13 · 📈 今日 +0 · `TypeScript`
   - 分类：Autonomous Agent
-  - Curated TypeSafe Jev / System One GitHub projects, open-source alternatives, and Jev news
+  - 精选 TypeSafe Jev / System One GitHub 项目、开源替代方案和 Jev 新闻
+- **[SpiralCloudOmega/DevTeam6](https://github.com/SpiralCloudOmega/DevTeam6)** · ⭐1 · 📈 今日 +0 · `C++`
+  - 分类：Autonomous Agent
+  - 人工智能开发工作室
+- **[YmSaki/SpecTracer](https://github.com/YmSaki/SpecTracer)** · ⭐1 · 📈 今日 +0 · `Rust`
+  - 分类：Autonomous Agent
+  - 用于人工智能并行开发的验证系统，通过测试跟踪规范，并通过故障关闭审核来跟踪执行证据。
+- **[lasithadilshan/lasithadilshan](https://github.com/lasithadilshan/lasithadilshan)** · ⭐0 · 📈 今日 +0 · `Unknown`
+  - 分类：Autonomous Agent
+  - 这是我的 github 配置文件特殊自述文件。
+- **[benwen518/mobile-npu-llm-paper-arxiv](https://github.com/benwen518/mobile-npu-llm-paper-arxiv)** · ⭐5 · 📈 今日 +0 · `Python`
+  - 分类：Autonomous Agent
+  - 无公开描述
 
 ## 🆕 最新出现（最近 30 天创建）
 
-- **[mdiri-ai/SoduWork](https://github.com/mdiri-ai/SoduWork)** · ⭐4,893 · 🔥 212.7★/天 · `JavaScript`
+- **[kazim768/manus--ai](https://github.com/kazim768/manus--ai)** · ⭐201 · 🔥 25.1★/天 · `Unknown`
   - 分类：AI Agent
-  - The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.
-- **[JosssphZhou/poki](https://github.com/JosssphZhou/poki)** · ⭐1,681 · 🔥 112.1★/天 · `Swift`
+  - AI Manus是一个通用的AI Agent系统，支持在沙箱环境中运行各种工具和操作。
+- **[kazim768/ai--manus](https://github.com/kazim768/ai--manus)** · ⭐201 · 🔥 25.1★/天 · `Unknown`
   - 分类：AI Agent
-  - Poki uses your iPhone like you do. An open-source agent app that runs on your iPhone, reads the screen, and taps, types and swipes in real apps with your own model account.
-- **[acruz6421-bot/hermes-harness-clone](https://github.com/acruz6421-bot/hermes-harness-clone)** · ⭐4 · 🔥 4.0★/天 · `Python`
+  - AI Manus是一个通用的AI Agent系统，支持在沙箱环境中运行各种工具和操作。
+- **[stancaedy10-glitch/manus--ai](https://github.com/stancaedy10-glitch/manus--ai)** · ⭐201 · 🔥 25.1★/天 · `Unknown`
   - 分类：AI Agent
-  - Run your Hermes Agent inside Antigravity (Claude Code / Codex experimental) as the same agent: same memory, personality and bots, plus a Telegram bridge with one topic per conversation.
-- **[upw9923-design/ROITZ-AI](https://github.com/upw9923-design/ROITZ-AI)** · ⭐1 · 🔥 1.0★/天 · `Python`
-  - 分类：Autonomous Agent
-  - 无公开描述
-- **[XTM-One-Platform/xtm-one](https://github.com/XTM-One-Platform/xtm-one)** · ⭐12 · 🔥 0.9★/天 · `Python`
-  - 分类：Autonomous Agent
-  - XTM One is an open source autonomous agentic assistant platform for Filigran products
-- **[johancoppens/3dcraft](https://github.com/johancoppens/3dcraft)** · ⭐6 · 🔥 0.7★/天 · `Rust`
+  - AI Manus是一个通用的AI Agent系统，支持在沙箱环境中运行各种工具和操作。
+- **[python001-dev/manus--ai](https://github.com/python001-dev/manus--ai)** · ⭐201 · 🔥 25.1★/天 · `Unknown`
   - 分类：AI Agent
-  - An open-source parametric 3D CAD modeller built with and for AI: every action is a command, and every result is checked. Pure Rust, its own kernel.
-- **[basilelt/overseer](https://github.com/basilelt/overseer)** · ⭐9 · 🔥 0.6★/天 · `Rust`
+  - AI Manus是一个通用的AI Agent系统，支持在沙箱环境中运行各种工具和操作。
+- **[WLfear/ai--manus](https://github.com/WLfear/ai--manus)** · ⭐201 · 🔥 25.1★/天 · `Unknown`
   - 分类：AI Agent
-  - Run and supervise your AI coding agents side by side, locally or on a server over SSH
-- **[Genpire/agent-army](https://github.com/Genpire/agent-army)** · ⭐1 · 🔥 0.5★/天 · `TypeScript`
+  - AI Manus是一个通用的AI Agent系统，支持在沙箱环境中运行各种工具和操作。
+- **[stancaedy10-glitch/ai--manus](https://github.com/stancaedy10-glitch/ai--manus)** · ⭐201 · 🔥 25.1★/天 · `Unknown`
   - 分类：AI Agent
-  - Self-hosted Slack assistant with a team of Claude agents that answer questions, research, and turn requests into pull requests.
-- **[baseguard/hangar](https://github.com/baseguard/hangar)** · ⭐5 · 🔥 0.4★/天 · `Swift`
+  - AI Manus是一个通用的AI Agent系统，支持在沙箱环境中运行各种工具和操作。
+- **[lloweryfn-rgb/manus--ai](https://github.com/lloweryfn-rgb/manus--ai)** · ⭐201 · 🔥 25.1★/天 · `Unknown`
   - 分类：AI Agent
-  - macOS, Linux and Windows VMs on your Mac, with every connection they make watched and filtered from outside the guest.
-- **[alessiodonato/forchetta](https://github.com/alessiodonato/forchetta)** · ⭐3 · 🔥 0.3★/天 · `TypeScript`
+  - AI Manus是一个通用的AI Agent系统，支持在沙箱环境中运行各种工具和操作。
+- **[SandyPandyMandy/ai--manus](https://github.com/SandyPandyMandy/ai--manus)** · ⭐201 · 🔥 25.1★/天 · `Unknown`
   - 分类：AI Agent
-  - Run several Claude Code sessions in the same repo without them stepping on each other: a guard that makes one wait for a file, every session on your Mac in one window, permissions and notifications from one place, and teams of agents.
+  - AI Manus是一个通用的AI Agent系统，支持在沙箱环境中运行各种工具和操作。
+- **[python001-dev/ai--manus](https://github.com/python001-dev/ai--manus)** · ⭐201 · 🔥 25.1★/天 · `Unknown`
+  - 分类：AI Agent
+  - AI Manus是一个通用的AI Agent系统，支持在沙箱环境中运行各种工具和操作。
+- **[ITprogamatikDedSec/ai--manus](https://github.com/ITprogamatikDedSec/ai--manus)** · ⭐201 · 🔥 25.1★/天 · `Unknown`
+  - 分类：AI Agent
+  - AI Manus是一个通用的AI Agent系统，支持在沙箱环境中运行各种工具和操作。
 
 ## 📡 今日新进雷达（昨天还没出现的项目）
 
-- **[agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw)** · ⭐38,005 · 📈 首次记录 · `Python`
+- **[xerj-org/xerj](https://github.com/xerj-org/xerj)** · ⭐19,130 · 📈 首次记录 · `Rust`
   - 分类：AI Agent
-  - Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.
-- **[lexmount/moli](https://github.com/lexmount/moli)** · ⭐24,115 · 📈 首次记录 · `Rust`
+  - 用于机器人和代理的 AI 搜索引擎和 MCP 服务器。一种 Rust 二进制索引代码、文档、日志、JSONL/CSV 和 PDF，用于 BM25 全文、矢量和混合搜索、无需 grep 的代码搜索、代理内存和 RAG。兼容 Elasticsearch 的 API； Corpus Hub 提供数百个参考记忆语料库。
+- **[nexu-io/openmotion](https://github.com/nexu-io/openmotion)** · ⭐14,259 · 📈 首次记录 · `TypeScript`
   - 分类：AI Agent
-  - Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust
-- **[polarsource/polar](https://github.com/polarsource/polar)** · ⭐10,499 · 📈 首次记录 · `Python`
+  - 开源 Claude Motion 和 CapCut 替代方案。使用您的品牌套件将参考视频转换为可编辑的动态图形。导出适用于 YouTube、YouTube Shorts、Instagram Reels 和 TikTok 的 MP4。一个全栈代理视频工作室，拥有 300 多个 Motion.md 指南并支持 22 个代理，包括 Claude Code、Codex、DSH 和 WorkBuddy。
+- **[trailhq/Trail-Code](https://github.com/trailhq/Trail-Code)** · ⭐11,384 · 📈 首次记录 · `TypeScript`
+  - 分类：AI Agent
+  - 为团队中的每个编码代理提供一个共享内存。 Claude Code、Cursor 和 Codex 会获取您的代码和团队过去决策的地图，以便它们从您上次停下的地方继续。
+- **[loopx-project/loopx](https://github.com/loopx-project/loopx)** · ⭐6,732 · 📈 首次记录 · `Python`
+  - 分类：AI Agent
+  - 24/7 全天候在线代理的控制平面。将长期目标转化为跨 Codex、Claude Code 和自定义运行时（从本地 SQLite 到团队规模）的可验证结果。
+- **[platonai/Browser4](https://github.com/platonai/Browser4)** · ⭐1,185 · 📈 首次记录 · `Kotlin`
   - 分类：Autonomous Agent
-  - Polar — A billing platform for the intelligence era
-- **[ai-boost/awesome-prompts](https://github.com/ai-boost/awesome-prompts)** · ⭐9,289 · 📈 首次记录 · `Python`
+  - Browser4 — 用于自主代理、智能提取和大规模 Web 自动化的 AI 原生浏览器引擎。
+- **[hashgraph-online/awesome-ai-plugins](https://github.com/hashgraph-online/awesome-ai-plugins)** · ⭐1,065 · 📈 首次记录 · `Python`
   - 分类：Autonomous Agent
-  - Curated prompts, frameworks and papers for LLMs and agents, with an engineering bias. Prompt engineering, context engineering, agent harnesses, red teaming.
-- **[kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill)** · ⭐8,538 · 📈 首次记录 · `Python`
+  - 适用于 AI 助手的最佳 AI 插件精选列表，包括 Claude Code、OpenAI Codex / ChatGPT、Gemini、Antigravity、Pi / Oh My Pi、Grok、OpenCodek DSH、Kimi 等。 https://hol.org/plugins
+- **[kazim768/manus--ai](https://github.com/kazim768/manus--ai)** · ⭐201 · 📈 首次记录 · `Unknown`
   - 分类：AI Agent
-  - Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.
-- **[mdiri-ai/SoduWork](https://github.com/mdiri-ai/SoduWork)** · ⭐4,893 · 📈 首次记录 · `JavaScript`
+  - AI Manus是一个通用的AI Agent系统，支持在沙箱环境中运行各种工具和操作。
+- **[kazim768/ai--manus](https://github.com/kazim768/ai--manus)** · ⭐201 · 📈 首次记录 · `Unknown`
   - 分类：AI Agent
-  - The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.
-- **[sheprd-labs/sheprd](https://github.com/sheprd-labs/sheprd)** · ⭐2,367 · 📈 首次记录 · `Rust`
+  - AI Manus是一个通用的AI Agent系统，支持在沙箱环境中运行各种工具和操作。
+- **[stancaedy10-glitch/manus--ai](https://github.com/stancaedy10-glitch/manus--ai)** · ⭐201 · 📈 首次记录 · `Unknown`
   - 分类：AI Agent
-  - Native client for Herdr on macOS, Linux, and Windows, built with Rust and GPUI. View terminal sessions, workspaces, Git worktrees, and agent activity through your local Herdr daemon.
-- **[ProxyShard/ShardBrowser](https://github.com/ProxyShard/ShardBrowser)** · ⭐1,631 · 📈 首次记录 · `TypeScript`
+  - AI Manus是一个通用的AI Agent系统，支持在沙箱环境中运行各种工具和操作。
+- **[python001-dev/manus--ai](https://github.com/python001-dev/manus--ai)** · ⭐201 · 📈 首次记录 · `Unknown`
   - 分类：AI Agent
-  - Free, open-source anti-detect browser launcher for web scraping and multi-accounting. By the ShardX team (formerly ProxyShard). Engine-level fingerprint spoofing in Chromium 157 (WebGL / WebGPU / Client Hints / fonts / TLS), 220+ device profiles bundled, stable QUIC + WebRTC over SOCKS5.
-- **[lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi)** · ⭐1,063 · 📈 首次记录 · `Unknown`
-  - 分类：AI Agent
-  - A curated research map of Recursive Self-Improvement (RSI): models, agents, harnesses, embodied systems, automated AI R&D, benchmarks, and safety.
-- **[metadist/synaplan](https://github.com/metadist/synaplan)** · ⭐980 · 📈 首次记录 · `PHP`
-  - 分类：AI Agent
-  - Own the flow: one open-source AI platform for your knowledge, models and channels – web, WhatsApp, email, Outlook, Nextcloud & ownCloud. Local and cloud models side by side, with the cost on every answer.
+  - AI Manus是一个通用的AI Agent系统，支持在沙箱环境中运行各种工具和操作。
 
 ---
-*生成时间：2026-11-20 16:47（Asia/Shanghai）*
+*生成时间：2026-11-21 16:29（Asia/Shanghai）*
