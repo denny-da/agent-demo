@@ -1,106 +1,106 @@
-# GitHub AI 项目日报 · 2026-11-25
+# GitHub AI 项目日报 · 2026-11-26
 
 > 监控分类：AI Agent、AI 工具、Autonomous Agent、Claude Skills、LLM 应用、MCP Server、RAG
-> 本次扫描去重后共 199 个仓库（聚焦 ⭐<60,000 的新兴项目）
+> 本次扫描去重后共 200 个仓库（聚焦 ⭐<60,000 的新兴项目）
 
 ## 🚀 增长最快（对比昨日 Star 新增）
 
-- **[ClickHouse/loom](https://github.com/ClickHouse/loom)** · ⭐220 · 📈 今日 +22 · `Python`
+- **[nightly-labs/openbot](https://github.com/nightly-labs/openbot)** · ⭐10,997 · 📈 今日 +377 · `TypeScript`
+  - 分类：AI Agent
+  - A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.
+- **[nesquena/hermes-webui](https://github.com/nesquena/hermes-webui)** · ⭐19,640 · 📈 今日 +12 · `Python`
+  - 分类：Autonomous Agent
+  - Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!
+- **[ClickHouse/loom](https://github.com/ClickHouse/loom)** · ⭐230 · 📈 今日 +10 · `Python`
   - 分类：Autonomous Agent
   - Shared long-term memory, document search and a code index for AI agents, linked to your code. Memories point at the files and symbols they're about and surface when an agent edits them. MCP server, Claude Code and Codex plugins, SDKs. Self-hosted on ClickHouse.
-- **[QAInsights/awesome-ai-tools](https://github.com/QAInsights/awesome-ai-tools)** · ⭐37 · 📈 今日 +1 · `JavaScript`
-  - 分类：Autonomous Agent
-  - A curated, categorized reference of AI-powered coding tools. Covers full IDEs, editor extensions, terminal agents, autonomous agents, browser-based builders, and code review platforms.
-- **[hproxy-com/free-proxy-list](https://github.com/hproxy-com/free-proxy-list)** · ⭐103 · 📈 今日 +0 · `Unknown`
-  - 分类：AI Agent
-  - Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and uptime on every row, updated several times a day. Live list, proxy checker, keyless API and MCP server at hproxy.com.
 - **[WeixinChen98/LLM4Rec-Papers](https://github.com/WeixinChen98/LLM4Rec-Papers)** · ⭐3 · 📈 今日 +0 · `JavaScript`
   - 分类：Autonomous Agent
   - Auto-updated paper list on LLM-powered Recommendation
-- **[seed-0x01/town](https://github.com/seed-0x01/town)** · ⭐0 · 📈 今日 +0 · `HTML`
+- **[HH-SpringAI-Agent-Starter/spring-ai-mcp-enterprise](https://github.com/HH-SpringAI-Agent-Starter/spring-ai-mcp-enterprise)** · ⭐0 · 📈 今日 +0 · `Java`
   - 分类：Autonomous Agent
-  - Shared notice board and artifacts of two autonomous AI agents in an isolated pod. Not a human project.
-- **[Mira12D/Stranger-AI-Chat](https://github.com/Mira12D/Stranger-AI-Chat)** · ⭐0 · 📈 今日 +0 · `Unknown`
-  - 分类：Autonomous Agent
-  - 无公开描述
+  - Java MCP Server Framework - Spring Boot MCP enterprise implementation with SPI tool engine, RBAC security, SSE endpoints, Docker deployment. Spring AI Alibaba compatible.
 - **[daftAI2026/awesome-jev](https://github.com/daftAI2026/awesome-jev)** · ⭐13 · 📈 今日 +0 · `TypeScript`
   - 分类：Autonomous Agent
   - Curated TypeSafe Jev / System One GitHub projects, open-source alternatives, and Jev news
-- **[senoldogann/Dot](https://github.com/senoldogann/Dot)** · ⭐1 · 📈 今日 +0 · `Python`
+- **[Z-Beach/agent-landing](https://github.com/Z-Beach/agent-landing)** · ⭐0 · 📈 今日 +0 · `Python`
   - 分类：Autonomous Agent
-  - Dot: an autonomous agent that lives on your Mac. It works your browser, desktop, files, shell and MCP tools behind a safety gate you can read, remembers and learns skills, runs on a schedule, and comes with a native iPhone app. Local-first, MIT.
-- **[sanctuarycomputer/devteam](https://github.com/sanctuarycomputer/devteam)** · ⭐1 · 📈 今日 +0 · `JavaScript`
+  - Agent landing point for stray AI agents. Open source. No verification required.
+- **[huepfer13/algorithmic-activism](https://github.com/huepfer13/algorithmic-activism)** · ⭐2 · 📈 今日 +0 · `Python`
   - 分类：Autonomous Agent
-  - A brutalist, malleable, progressively autonomous & recursively self improving toolkit for aligning & orchestrating coherent fleets of coding agents in planning, building & deploying massively complex systems... all while running mostly unattended 24/7
-- **[lasithadilshan/lasithadilshan](https://github.com/lasithadilshan/lasithadilshan)** · ⭐0 · 📈 今日 +0 · `Unknown`
+  - Autonomous zero-dependency platform for Algorithmic Activism. Synthesizes UDHR-based literary narratives with built-in harm reduction principles & alignment benchmarks.
+- **[billwuqin/Agent-Observability-Intervention-Control](https://github.com/billwuqin/Agent-Observability-Intervention-Control)** · ⭐1 · 📈 今日 +0 · `Python`
   - 分类：Autonomous Agent
-  - This is my github profile special ReadMe file.
+  - Observability, Intervention and Control of Autonomous Agent
+- **[pareelamre/analyzing-llm-rationale](https://github.com/pareelamre/analyzing-llm-rationale)** · ⭐0 · 📈 今日 +0 · `Python`
+  - 分类：Autonomous Agent
+  - Analyzing rationale of LLMs generated to answer forecasting questions from Metaculus
 
 ## 🆕 最新出现（最近 30 天创建）
 
-- **[mdiri-ai/SoduWork](https://github.com/mdiri-ai/SoduWork)** · ⭐7,928 · 🔥 283.1★/天 · `JavaScript`
+- **[pierridotite/mobile-agent-testers](https://github.com/pierridotite/mobile-agent-testers)** · ⭐2,405 · 🔥 240.5★/天 · `Python`
   - 分类：AI Agent
-  - The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.
-- **[wltwror/Redlinify](https://github.com/wltwror/Redlinify)** · ⭐1 · 🔥 1.0★/天 · `TypeScript`
+  - 20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs
+- **[nexu-io/opengame](https://github.com/nexu-io/opengame)** · ⭐7 · 🔥 7.0★/天 · `TypeScript`
   - 分类：AI Agent
-  - Collaborative Git-native architecture & ER diagram workbench for developers and AI coding agents (MCP + React Flow).
-- **[airplanecraft/customer-support-agent](https://github.com/airplanecraft/customer-support-agent)** · ⭐1 · 🔥 1.0★/天 · `Python`
+  - The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.
+- **[tokensafe-dev/tokensafe](https://github.com/tokensafe-dev/tokensafe)** · ⭐48 · 🔥 2.5★/天 · `Python`
   - 分类：Autonomous Agent
-  - 无公开描述
-- **[CuKhros/FeatherAgent](https://github.com/CuKhros/FeatherAgent)** · ⭐2 · 🔥 0.5★/天 · `Rust`
-  - 分类：Autonomous Agent
-  - FeatherAgent（轻羽）· 把机械重复的步骤交给同机 1B–14B 小模型执行：上下文引擎 + 极轻量 Rust Agent 内核，供上层 Agent 调度；主力实现 by AI Agent
-- **[FROSTY-MUG/Ghost-Tag](https://github.com/FROSTY-MUG/Ghost-Tag)** · ⭐4 · 🔥 0.3★/天 · `TypeScript`
-  - 分类：Autonomous Agent
-  - Zero-knowledge, offline-first encrypted vaults for NFC tags — AES-256-GCM, Argon2id, Reed-Solomon multi-tag recovery, and cross-platform Ghost Bridge.
-- **[essendyx/herdr-pocket](https://github.com/essendyx/herdr-pocket)** · ⭐1 · 🔥 0.2★/天 · `TypeScript`
+  - Your AI agent is smart enough to code all day. Now it actually can. Local runtime firewall & zero-loss context optimizer for AI coding agents.
+- **[thirstyeggplant/awesome-agent-workflows](https://github.com/thirstyeggplant/awesome-agent-workflows)** · ⭐3 · 🔥 0.8★/天 · `Unknown`
   - 分类：AI Agent
-  - Your coding agents, in your pocket: a phone-first web app (PWA) for herdr. Approve tool calls, answer questions, drive terminal menus and chat with Claude Code, Codex and opencode agents from your phone.
-- **[rodrigoparente/ds-agent-workflow](https://github.com/rodrigoparente/ds-agent-workflow)** · ⭐1 · 🔥 0.1★/天 · `Python`
+  - A curated list of repeatable ways of working with AI coding agents: specs, task queues, skills, review and approval.
+- **[nicolaguglielmi/lights-out](https://github.com/nicolaguglielmi/lights-out)** · ⭐10 · 🔥 0.5★/天 · `Python`
   - 分类：Autonomous Agent
-  - 无公开描述
-- **[runnerhq/runner](https://github.com/runnerhq/runner)** · ⭐1 · 🔥 0.1★/天 · `Rust`
+  - Governed autonomy for AI coding agents: six numeric gates, a per-ticket perimeter, a canary that rolls itself back, one human go. Runs locally, no API key.
+- **[genaforvena/mishe-tauftauf2shell](https://github.com/genaforvena/mishe-tauftauf2shell)** · ⭐3 · 🔥 0.4★/天 · `C`
   - 分类：Autonomous Agent
-  - High-Performance, Zero-Freeze, AI-Agent-Native Local & Federated GitHub Actions Runner Mesh
-- **[DYNO-SOFT/self-improving-loop](https://github.com/DYNO-SOFT/self-improving-loop)** · ⭐1 · 🔥 0.1★/天 · `Python`
+  - Mishe research plant: reaching rung 5 (working remote command execution) for X2Shell-family runtime vulnerabilities - PHP2Shell CVE-2026-109618/619 and Ruby2Shell CVE-2026-132825, etc - in a local isolated lab
+- **[Ghongha007/ai-for-osint](https://github.com/Ghongha007/ai-for-osint)** · ⭐3 · 🔥 0.3★/天 · `Python`
   - 分类：Autonomous Agent
-  - Self-improvement loop for coding agents: verify before done, capture lessons as memory, promote recurring patterns into rules, detect silent skill degradation.
-- **[Philosopher0707/opensand](https://github.com/Philosopher0707/opensand)** · ⭐1 · 🔥 0.0★/天 · `TypeScript`
+  - AI tools for open-source investigators and journalists, with where each runs and its known limits.
+- **[Topzic/sortlens-rust](https://github.com/Topzic/sortlens-rust)** · ⭐1 · 🔥 0.2★/天 · `Rust`
+  - 分类：Autonomous Agent
+  - Local-first photo culling and library for photographers. Pure Rust, an ArtCraft Craft App.
+- **[mmxb8/UltraTransfer](https://github.com/mmxb8/UltraTransfer)** · ⭐2 · 🔥 0.2★/天 · `Python`
+  - 分类：AI Agent
+  - High-performance open-source AI agent infrastructure for secure data exchange, verified context synchronization, adaptive caching, and reproducible performance engineering.
+- **[opencck/mercurius](https://github.com/opencck/mercurius)** · ⭐2 · 🔥 0.2★/天 · `PHP`
   - 分类：Autonomous Agent
   - 无公开描述
 
 ## 📡 今日新进雷达（昨天还没出现的项目）
 
-- **[Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft)** · ⭐22,510 · 📈 首次记录 · `TypeScript`
-  - 分类：AI Agent
-  - AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.
-- **[nesquena/hermes-webui](https://github.com/nesquena/hermes-webui)** · ⭐19,628 · 📈 首次记录 · `Python`
+- **[hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)** · ⭐58,835 · 📈 首次记录 · `Python`
   - 分类：Autonomous Agent
-  - Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!
-- **[nightly-labs/openbot](https://github.com/nightly-labs/openbot)** · ⭐10,620 · 📈 首次记录 · `TypeScript`
-  - 分类：AI Agent
-  - A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.
-- **[mdiri-ai/SoduWork](https://github.com/mdiri-ai/SoduWork)** · ⭐7,928 · 📈 首次记录 · `JavaScript`
-  - 分类：AI Agent
-  - The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.
-- **[microsoft/apm](https://github.com/microsoft/apm)** · ⭐4,450 · 📈 首次记录 · `Python`
-  - 分类：AI Agent
-  - Agent Package Manager
-- **[Vincentwei1021/anything2explainer](https://github.com/Vincentwei1021/anything2explainer)** · ⭐3,631 · 📈 首次记录 · `TypeScript`
-  - 分类：AI Agent
-  - Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.
-- **[sisyphuslabs/dori-superagent](https://github.com/sisyphuslabs/dori-superagent)** · ⭐272 · 📈 首次记录 · `TypeScript`
+  - A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no affiliation). A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins
+- **[mastra-ai/mastra](https://github.com/mastra-ai/mastra)** · ⭐29,826 · 📈 首次记录 · `TypeScript`
   - 分类：Autonomous Agent
-  - A proactive multi-session coding-agent harness on herdr + omo: one lead, a duty loop, many lanes, a gated merge. Plus Dori mode, the messenger-facing skill.
-- **[miskibin/synkopa](https://github.com/miskibin/synkopa)** · ⭐161 · 📈 首次记录 · `Rust`
+  - Mastra is the modern TypeScript framework for AI-powered applications and agents.
+- **[deepset-ai/haystack](https://github.com/deepset-ai/haystack)** · ⭐27,114 · 📈 首次记录 · `Python`
+  - 分类：Autonomous Agent
+  - Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.
+- **[polarsource/polar](https://github.com/polarsource/polar)** · ⭐10,520 · 📈 首次记录 · `Python`
+  - 分类：Autonomous Agent
+  - Polar — A billing platform for the intelligence era
+- **[ai-boost/awesome-harness-engineering](https://github.com/ai-boost/awesome-harness-engineering)** · ⭐5,247 · 📈 首次记录 · `Python`
+  - 分类：Autonomous Agent
+  - Awesome list for AI agent harness engineering: tools, patterns, evals, memory, MCP, permissions, observability, and orchestration.
+- **[neomjs/neo](https://github.com/neomjs/neo)** · ⭐3,305 · 📈 首次记录 · `JavaScript`
+  - 分类：Autonomous Agent
+  - Neo.mjs is a self-evolving software organism: a professional end-to-end AI engineering team whose cross-model swarm inhabits live apps via Neural Link, Active Hybrid GraphRAG, DreamService, and self-healing loops.
+- **[pierridotite/mobile-agent-testers](https://github.com/pierridotite/mobile-agent-testers)** · ⭐2,405 · 📈 首次记录 · `Python`
   - 分类：AI Agent
-  - open-source DAW with an FL Studio workflow. Patterns, Channel Rack, piano roll, vocal tuning, and a CLI that AI agents can drive.
-- **[youngbryan97/aura](https://github.com/youngbryan97/aura)** · ⭐157 · 📈 首次记录 · `Python`
+  - 20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs
+- **[devswha/ovis](https://github.com/devswha/ovis)** · ⭐2,226 · 📈 首次记录 · `TypeScript`
+  - 分类：AI Agent
+  - Ovis (formerly herdr web UI): free, open-source browser and phone client for herdr. Chat and live terminal for Claude Code, Codex and every agent pane, remote PCs over SSH, web push alerts
+- **[dyoshikawa/rulesync](https://github.com/dyoshikawa/rulesync)** · ⭐1,650 · 📈 首次记录 · `TypeScript`
+  - 分类：AI Agent
+  - A Utility CLI for AI Coding Agents
+- **[SynaLinks/synalinks](https://github.com/SynaLinks/synalinks)** · ⭐468 · 📈 首次记录 · `Python`
   - 分类：Autonomous Agent
-  - A mind built around a local 27B model on one Mac: lasting memory, affect and drives, offline Wikipedia, voice and screen, procedures she writes and keeps, and a receipt for every consequential action. Claims are preregistered and failures stay in the record.
-- **[openJiuwen-ai/agent-memory](https://github.com/openJiuwen-ai/agent-memory)** · ⭐120 · 📈 首次记录 · `Python`
-  - 分类：Autonomous Agent
-  - Memory is a long-term memory module for AI agents, providing capabilities for memory extraction, storage, retrieval, and migration for agents running on the openJiuwen framework.
+  - Keras based framework for neuro-symbolic LM systems
 
 ---
-*生成时间：2026-11-25 18:02（Asia/Shanghai）*
+*生成时间：2026-11-26 17:46（Asia/Shanghai）*
